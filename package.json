@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo 'Error: No test specified'",
-    "deploy-cmds": "node deploy-commands.js",
-    "serve": "nodemon index.js -e js,json",
+    "dev": "nodemon index.js -e js,json",
     "production": "node index.js"
   },
   "repository": {

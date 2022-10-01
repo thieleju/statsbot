@@ -5,7 +5,6 @@ module.exports = {
     .setName("userinfo")
     .setDescription("Display info about yourself."),
   async execute(interaction) {
-    console.log(interaction.member.guild.name);
     return interaction.reply(
       `Your username: ${interaction.user.username}\nYour ID: ${interaction.user.id}`
     );
