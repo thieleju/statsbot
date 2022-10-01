@@ -26,12 +26,14 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | **serverinfo** | Shows information about the server     | `/serverinfo` |
 | **userinfo**   | Shows information about the user       | `/userinfo`   |
 
+
 ## :wrench: Installation
 
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/en/download/) (v16.6.0 or higher)
 - Discord Account 
+
 
 ### Project Setup
 
@@ -51,6 +53,7 @@ DC_BOT_CLIENT_SECRET=<your application client secret>
 DC_BOT_PERMISSIONS=274878131264
 ```
 
+
 ## :rocket: How to run the bot
 
 ```sh
@@ -59,6 +62,7 @@ npm run serve
 
 This runs the application with [nodemon](https://www.npmjs.com/package/nodemon) which automatically restarts the application when changes are made.
 
+
 ## :link: How to invite the bot
 
 - Option 1: Follow this guide on [discordjs.guide](https://discordjs.guide/preparations/adding-your-bot-to-servers.html)
@@ -66,6 +70,7 @@ This runs the application with [nodemon](https://www.npmjs.com/package/nodemon) 
   - **client_id**: Your application client id (`DC_BOT_CLIENT_ID`)
   - **permissions**: All permissions the bot should have when invited as a string (`274878131264`)
   - **scope**: `bot%20applications.commands`
+
 
 # :question: What is Hacktoberfest?
 
