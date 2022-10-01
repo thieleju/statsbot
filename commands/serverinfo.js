@@ -2,11 +2,11 @@ const { SlashCommandBuilder } = require("discord.js");
 
 module.exports = {
   data: new SlashCommandBuilder()
-    .setName("user-info")
-    .setDescription("Display info about yourself."),
+    .setName("serverinfo")
+    .setDescription("Display info about this server."),
   async execute(interaction) {
     return interaction.reply(
-      `Your username: ${interaction.user.username}\nYour ID: ${interaction.user.id}`
+      `Server name: ${interaction.guild.name}\nTotal members: ${interaction.guild.memberCount}`
     );
   },
 };
