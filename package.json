@@ -7,7 +7,6 @@
     "test": "echo 'Error: No test specified'",
     "deploy-cmds": "node deploy-commands.js",
     "serve": "nodemon index.js -e js,json",
-    "dev": "npm run deploy-cmds && npm run serve",
     "production": "node index.js"
   },
   "repository": {
