@@ -1,0 +1,29 @@
+{
+  "name": "statsbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Error: No test specified'",
+    "production": "node index.js",
+    "start": "nodemon index.js -e js,json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thieleju/statsbot.git"
+  },
+  "author": "Julian Thiele",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thieleju/statsbot/issues"
+  },
+  "homepage": "https://github.com/thieleju/statsbot#readme",
+  "dependencies": {
+    "discord.js": "^14.5.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.24.0",
+    "nodemon": "^2.0.20"
+  }
+}
