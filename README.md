@@ -1,9 +1,9 @@
 # StatsBot - A Discord bot for statistics from public APIs
 
-A Discord bot which provides various commands to get statistics from public APIs. This project is using the [discord.js](https://discord.js.org/) library and public APIs from [this list](https://github.com/public-apis/public-apis).
-
 > **Note** <br>
 > This project does participate in the **Hacktoberfest 2022** event! 
+
+A Discord bot which provides various commands to get statistics from public APIs. This project is using the [discord.js](https://discord.js.org/) library and public APIs from [this list](https://github.com/public-apis/public-apis).
 
 ## :sparkles: How to contribute
 
