@@ -45,7 +45,7 @@ client.on("interactionCreate", async (interaction) => {
     // Execute the command
     await command.execute(interaction);
     // Log command usage
-    const timestamp = new Date().toISOString();
+    const timestamp = new Date().toLocaleString();
     console.log(
       `[${timestamp}] Player ${interaction.user.username} used command ${interaction.commandName}`
     );
