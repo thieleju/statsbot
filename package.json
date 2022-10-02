@@ -1,7 +1,7 @@
 {
   "name": "statsbot",
   "version": "1.0.0",
-  "description": "",
+  "description": "> **Note** <br>\r > This project does participate in the **Hacktoberfest 2022** event!",
   "main": "index.js",
   "scripts": {
     "test": "echo 'Error: No test specified'",
