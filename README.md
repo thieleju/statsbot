@@ -20,13 +20,12 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 ## :white_check_mark: Available commands
 
 <!-- markdown table -->
-| Command        | Description                            | Example       |
-| -------------- | -------------------------------------- | ------------- |
-| **help**       | Shows a list of all available commands | `/help`       |
-| **invitelink** | Shows the invite link for the bot      | `/invitelink` |
-| **ping**       | Pong!                                  | `/ping`       |
-| **serverinfo** | Shows information about the server     | `/serverinfo` |
-| **userinfo**   | Shows information about the user       | `/userinfo`   |
+| Command        | Description                        | Example       |
+| -------------- | ---------------------------------- | ------------- |
+| **invitelink** | Shows the invite link for the bot  | `/invitelink` |
+| **ping**       | Pong!                              | `/ping`       |
+| **serverinfo** | Shows information about the server | `/serverinfo` |
+| **userinfo**   | Shows information about the user   | `/userinfo`   |
 
 
 ## :wrench: Installation
