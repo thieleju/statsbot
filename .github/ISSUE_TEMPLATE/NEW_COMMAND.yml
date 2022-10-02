@@ -41,7 +41,6 @@ body:
       - Implement a API request with the help of [axios](https://axios-http.com/docs/intro) to your public API
       - Format the data in a readable way and send it to the user
       - Use the [discord.js](https://discordjs.guide/interactions/slash-commands.html) docs to get started
-    Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
   validations:
     required: false
   - type: checkboxes
