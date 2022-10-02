@@ -15,8 +15,7 @@ Please note we have a [code of conduct](CODE_OF_CONDUCT.md), please follow it in
 2. Make sure you have tested your code
 3. Write a detailed description what you added or changed 
 4. Remember to update the commands table in the [README.md](README.md#whitecheckmark-available-commands) if you added or changed a command 
-5. Remember to update the content of the `help` command
-6. The pull request will be checked and merged if everything is fine
-7. :tada: Your PR will be labeled with the `hacktoberfest-accepted` label!
+5. The pull request will be checked and merged if everything is fine
+6. :tada: Your PR will be labeled with the `hacktoberfest-accepted` label!
 
 > Random pull requests will be closed without any further notice and **labeled as spam**.
