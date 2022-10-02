@@ -5,13 +5,41 @@ const { DateTime, Duration } = require('luxon');
 module.exports = {
 	data: new SlashCommandBuilder()
 		.setName('programmingcontests')
-		.setDescription('Shows five upcoming programming contests'),
+		.setDescription('Shows upcoming programming contests')
+		.addStringOption(option => option
+			.setName('platform')
+			.setDescription('The platform of contests')
+			.addChoices(
+				{ name: 'CodeForces', value: 'codeforces' },
+				{ name: 'TopCoder', value: 'top_coder' },
+				{ name: 'AtCoder', value: 'at_coder' },
+				{ name: 'CodeChef', value: 'code_chef' },
+				{ name: 'CS Academy', value: 'cs_academy' },
+				{ name: 'HackerRank', value: 'hacker_rank' },
+				{ name: 'HackerEarth', value: 'hacker_earth' },
+				{ name: 'Kick Start', value: 'kick_start' },
+				{ name: 'LeetCode', value: 'leet_code' },
+			),
+		)
+		.addIntegerOption(option => option
+			.setName('amount')
+			.setDescription('The amount of contests to show')
+			.setMinValue(1)),
+
 	async execute(interaction) {
-		const contests = (await axios.get('https://kontests.net/api/v1/all')).data
+		const platform = interaction.options.getString('platform') ?? 'all';
+		const amount = interaction.options.getInteger('amount') ?? 5;
+
+		const contests = (await axios.get(`https://kontests.net/api/v1/${platform}`)).data
 			.filter(({ start_time }) => (
 				DateTime.fromISO(start_time).diffNow().as('seconds') > 0
 			))
-			.slice(0, 5);
+			.slice(0, amount);
+
+		if (contests.length == 0) {
+			await interaction.reply('There are no upcoming contests on this platform');
+		}
+
 		const embed = new EmbedBuilder()
 			.setTitle('Upcoming programming contests:');
 
