@@ -1,6 +1,6 @@
 name: New Command
 description: Add a new discord bot command!
-title: "[feature]: <title>"
+title: "Add <command> using <public api>"
 labels: ["feature", "hacktoberfest"]
 body:
   - type: markdown
