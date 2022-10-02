@@ -28,6 +28,7 @@ for (const file of commandFiles) {
   // Set a new item in the Collection
   // With the key as the command name and the value as the exported module
   client.commands.set(command.data.name, command);
+  
   commands.push(command.data.toJSON());
 }
 
@@ -62,6 +63,7 @@ client.on("interactionCreate", async (interaction) => {
 
   try {
     // Execute the command
+    
     await command.execute(interaction);
     // Log command usage
     const timestamp = new Date().toLocaleString();
