@@ -11,7 +11,7 @@ module.exports = {
         url: 'https://excuser.herokuapp.com/v1/excuse',
         responseType: 'json'
     }).then(response => {
-        interaction.member.send(response.data.excuse);
+        interaction.reply(response.data[0].excuse);
     })
   },
 };
