@@ -8,7 +8,7 @@ module.exports = {
   async execute(interaction) {
     await axios({
       method: "get",
-      url: "https://dog-api.kinduff.com/api/facts?number=1",
+      url: "https://dog-api.kinduff.com/api/facts",
       responseType: "json",
     })
       .then((response) => {

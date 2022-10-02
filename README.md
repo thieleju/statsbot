@@ -1,7 +1,7 @@
 # StatsBot - A Discord Bot to gather data from public APIs
 
 > **Note** <br>
-> This project does participate in the **Hacktoberfest 2022** event! 
+> This project does participate in the **Hacktoberfest 2022** event!
 
 A Discord bot which provides various commands to get statistics from public APIs. This project is using the [discord.js](https://discord.js.org/) library and public APIs from [this list](https://github.com/public-apis/public-apis).
 
@@ -11,7 +11,7 @@ A Discord bot which provides various commands to get statistics from public APIs
 - After you are assigned, [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) the repository and create a new branch
 - Make your changes on the new branch and commit them
 - Create a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) and wait for it to be reviewed
-- Thats it! 
+- Thats it!
 
 For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 
@@ -20,6 +20,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 ## :white_check_mark: Available commands
 
 <!-- markdown table -->
+
 | Command                   | Description                                               | API                                                             |
 | ------------------------- | --------------------------------------------------------- | --------------------------------------------------------------- |
 | `/invitelink`             | Shows the invite link for the bot                         |                                                                 |
@@ -28,20 +29,19 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/userinfo`               | Shows information about the user                          |                                                                 |
 | `/excuse`                 | Sends a random excuse                                     | [Excuser](https://excuser.herokuapp.com/)                       |
 | `/show-chess-leaderboard` | Shows information about the current chess.com leaderboard | [chess.com](https://www.chess.com/news/view/published-data-api) |
-| `/numberfact` | Shows a random number fact | [numbersapi.com](http://numbersapi.com/) |
-
+| `/numberfact`             | Shows a random number fact                                | [numbersapi.com](http://numbersapi.com/)                        |
+| `/dogfact`                | Shows a random dog fact                                   | [Dog API](http://dog-api.kinduff.com/api/facts)                 |
 
 ## :wrench: Installation
 
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/en/download/) (v16.6.0 or higher)
-- Discord Account 
-
+- Discord Account
 
 ### Project Setup
 
-1. Fork or Clone the repository to your local machine 
+1. Fork or Clone the repository to your local machine
 2. Navigate to the project root directory (location of package.json)
 3. Run the command `npm install` to install all dependencies
 4. Setting up a discord bot application
@@ -52,11 +52,13 @@ Example `.env` file content:
 
 ```html
 DC_BOT_TOKEN=<your bot token>
-DC_BOT_CLIENT_ID=<your application client id>
-DC_BOT_CLIENT_SECRET=<your application client secret>
-DC_BOT_PERMISSIONS=274878131264
+  DC_BOT_CLIENT_ID=<your application client id>
+    DC_BOT_CLIENT_SECRET=<your application client secret>
+      DC_BOT_PERMISSIONS=274878131264</your
+    ></your
+  ></your
+>
 ```
-
 
 ## :rocket: How to run the bot
 
@@ -66,7 +68,6 @@ npm run serve
 
 This runs the application with [nodemon](https://www.npmjs.com/package/nodemon) which automatically restarts the application when changes are made.
 
-
 ## :link: How to invite the bot
 
 - Option 1: Follow this guide on [discordjs.guide](https://discordjs.guide/preparations/adding-your-bot-to-servers.html)
@@ -74,7 +75,6 @@ This runs the application with [nodemon](https://www.npmjs.com/package/nodemon) 
   - **client_id**: Your application client id (`DC_BOT_CLIENT_ID`)
   - **permissions**: All permissions the bot should have when invited as a string (`274878131264`)
   - **scope**: `bot%20applications.commands`
-
 
 # :question: What is Hacktoberfest?
 
