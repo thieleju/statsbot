@@ -40,13 +40,13 @@ rest
     body: commands,
   })
   .then(() =>
-    console.log("[SYTEM] Successfully registered application commands.")
+    console.log("[SYSTEM] Successfully registered application commands.")
   )
   .catch(console.error);
 
 // When the client is ready, run this code (only once)
 client.once("ready", () => {
-  console.log("[SYTEM] Bot ready and online!");
+  console.log("[SYSTEM] Bot ready and online!");
 });
 
 // React to chat interactions
