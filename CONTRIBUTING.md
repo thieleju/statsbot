@@ -1,13 +1,15 @@
 # Contributing 
 
 When contributing to this repository, please first **ask to be assigned to an issue**.
+Feel free to create an issue by yourself and ask to be assigned to it!
+
 Please note we have a [code of conduct](CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
 
 1. Navigate to an open issue and ask to be assigned to it
 2. If someone is already assigned to the issue, you cannot be assigned to it too
-4. After you are assigned, [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) the repository and create a new branch
-5. Make your changes according to the pr guidelines, and commit them on the new branch
-6. Create a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) and wait for it to be reviewed
+3. After you are assigned, [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) the repository and create a new branch
+4. Make your changes according to the pr guidelines, and commit them on the new branch
+5. Create a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) and wait for it to be reviewed
 
 ## Pull Request Guidelines
 
