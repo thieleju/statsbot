@@ -36,11 +36,11 @@ body:
     attributes:
       label: Implementation Details
       description: |
-        ### Default Implementation
         - Add a new javascript file in the `commands` folder
         - Implement a API request with the help of [axios](https://axios-http.com/docs/intro) to your public API
         - Format the data in a readable way and send it to the user
         - Use the [discord.js](https://discordjs.guide/interactions/slash-commands.html) docs to get started
+      placeholder: Additional details about the implementation if necessary.
     validations:
       required: false
   - type: checkboxes
