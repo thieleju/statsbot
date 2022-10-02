@@ -26,6 +26,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | **ping**       | Pong!                              | `/ping`       |
 | **serverinfo** | Shows information about the server | `/serverinfo` |
 | **userinfo**   | Shows information about the user   | `/userinfo`   |
+| **excuse**     | Sends a random excuse              | `/excuse`     |
 
 
 ## :wrench: Installation
