@@ -24,7 +24,9 @@ module.exports = {
 		.addIntegerOption(option => option
 			.setName('amount')
 			.setDescription('The amount of contests to show')
-			.setMinValue(1)),
+			.setMinValue(1)
+			.setMaxValue(15),
+		),
 
 	async execute(interaction) {
 		const platform = interaction.options.getString('platform') ?? 'all';
@@ -37,7 +39,7 @@ module.exports = {
 			.slice(0, amount);
 
 		if (contests.length == 0) {
-			await interaction.reply('There are no upcoming contests on this platform');
+			return await interaction.reply('There are no upcoming contests on this platform');
 		}
 
 		const embed = new EmbedBuilder()
@@ -63,6 +65,6 @@ module.exports = {
 			**Duration**: ${duration} ${durationUnit}`;
 			embed.addFields({ name, value });
 		}
-		interaction.reply({ embeds: [embed] });
+		return await interaction.reply({ embeds: [embed] });
 	},
 };
