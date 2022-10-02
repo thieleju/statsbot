@@ -7,6 +7,7 @@ body:
     attributes:
       value: |
         Thank you for your interest in contributing to the project! Please fill out the following form to submit a new issue.
+        Please read the [CONTRIBUTING.md](https://github.com/thieleju/statsbot/blob/main/CONTRIBUTING.md) carefully before getting started!
   - type: input
     id: cmd
     attributes:
