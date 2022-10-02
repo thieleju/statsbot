@@ -44,7 +44,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 3. Run the command `npm install` to install all dependencies
 4. Setting up a discord bot application
    - Follow [this guide](https://discordjs.guide/preparations/setting-up-a-bot-application.html) on how to set up a new discord application and add a bot
-   - Save the `Bot Token`, `Client ID` and `Client Secret` to a new file named `.env` in the root project directory
+   - Save the `Bot Token`, `Client ID` and `Client Secret` to a new file named `.env` in the project root directory
 
 Example `.env` file content:
 
