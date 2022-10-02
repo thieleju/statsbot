@@ -29,6 +29,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/excuse`                 | Sends a random excuse                                     | [Excuser](https://excuser.herokuapp.com/)                       |
 | `/show-chess-leaderboard` | Shows information about the current chess.com leaderboard | [chess.com](https://www.chess.com/news/view/published-data-api) |
 | `/numberfact` | Shows a random number fact | [numbersapi.com](http://numbersapi.com/) |
+| `/programmingcontests` | Shows upcoming programming contests | [kontests.net](https://kontests.net/api) |
 
 
 ## :wrench: Installation
