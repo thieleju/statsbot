@@ -1,4 +1,4 @@
-# StatsBot - A Discord bot for statistics from public APIs
+# StatsBot - A Discord Bot to gather data from public APIs
 
 > **Note** <br>
 > This project does participate in the **Hacktoberfest 2022** event! 
