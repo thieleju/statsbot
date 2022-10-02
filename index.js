@@ -1,11 +1,11 @@
-const fs = require("node:fs");
-const path = require("node:path");
-require("dotenv").config();
+const fs = require('node:fs');
+const path = require('node:path');
+require('dotenv').config();
 
 // Require the necessary discord.js classes
-const { Client, Collection, GatewayIntentBits } = require("discord.js");
-const { REST } = require("@discordjs/rest");
-const { Routes } = require("discord.js");
+const { Client, Collection, GatewayIntentBits } = require('discord.js');
+const { REST } = require('@discordjs/rest');
+const { Routes } = require('discord.js');
 
 // Create a new client instance
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
@@ -16,10 +16,10 @@ client.login(process.env.DC_BOT_TOKEN).catch(console.error);
 // Read all command files from commands folder (__dirname is the current directory)
 const commands = [];
 client.commands = new Collection();
-const commandsPath = path.join(__dirname, "commands");
+const commandsPath = path.join(__dirname, 'commands');
 const commandFiles = fs
   .readdirSync(commandsPath)
-  .filter((file) => file.endsWith(".js"));
+  .filter((file) => file.endsWith('.js'));
 
 // Read command files and add them to the client.commands collection
 for (const file of commandFiles) {
@@ -32,7 +32,7 @@ for (const file of commandFiles) {
 }
 
 // Create a new REST instance to register commands
-const rest = new REST({ version: "10" }).setToken(process.env.DC_BOT_TOKEN);
+const rest = new REST({ version: '10' }).setToken(process.env.DC_BOT_TOKEN);
 
 // Register the commands by sending a PUT request to the Discord API
 rest
@@ -40,17 +40,17 @@ rest
     body: commands,
   })
   .then(() =>
-    console.log("[SYSTEM] Successfully registered application commands.")
+    console.log('[SYSTEM] Successfully registered application commands.'),
   )
   .catch(console.error);
 
 // When the client is ready, run this code (only once)
-client.once("ready", () => {
-  console.log("[SYSTEM] Bot ready and online!");
+client.once('ready', () => {
+  console.log('[SYSTEM] Bot ready and online!');
 });
 
 // React to chat interactions
-client.on("interactionCreate", async (interaction) => {
+client.on('interactionCreate', async (interaction) => {
   // discard interactions that are not commands
   if (!interaction.isChatInputCommand()) return;
 
@@ -66,12 +66,13 @@ client.on("interactionCreate", async (interaction) => {
     // Log command usage
     const timestamp = new Date().toLocaleString();
     console.log(
-      `[${timestamp}] ${interaction.user.username} used command ${interaction.commandName}`
+      `[${timestamp}] ${interaction.user.username} used command ${interaction.commandName}`,
     );
-  } catch (error) {
+  }
+  catch (error) {
     console.error(error);
     await interaction.reply({
-      content: "There was an error while executing this command!",
+      content: 'There was an error while executing this command!',
       ephemeral: true,
     });
   }

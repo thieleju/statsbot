@@ -1,12 +1,12 @@
-const { SlashCommandBuilder } = require("discord.js");
+const { SlashCommandBuilder } = require('discord.js');
 
 module.exports = {
   data: new SlashCommandBuilder()
-    .setName("userinfo")
-    .setDescription("Display info about yourself."),
+    .setName('userinfo')
+    .setDescription('Display info about yourself.'),
   async execute(interaction) {
     return interaction.reply(
-      `Your username: ${interaction.user.username}\nYour ID: ${interaction.user.id}`
+      `Your username: ${interaction.user.username}\nYour ID: ${interaction.user.id}`,
     );
   },
 };
