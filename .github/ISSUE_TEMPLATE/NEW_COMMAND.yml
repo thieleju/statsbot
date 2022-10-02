@@ -1,7 +1,8 @@
 name: New Command
 description: Add a new discord bot command!
-title: "Add <command> using <public api>"
-labels: ["feature", "hacktoberfest"]
+title: "Add <command> command using <public api>"
+labels: ["hacktoberfest"]
+milestone: "Hacktoberfest 2022"
 body:
   - type: markdown
     attributes:
@@ -32,6 +33,14 @@ body:
       placeholder: This command will show public API data.
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Implementation
+        - Add a new javascript file in the `commands` folder
+        - Implement a API request with the help of [axios](https://axios-http.com/docs/intro) to your public API
+        - Format the data in a readable way and send it to the user
+        - Use the [discord.js](https://discordjs.guide/interactions/slash-commands.html) docs to get started
   - type: checkboxes
     id: terms
     attributes:
