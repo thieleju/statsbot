@@ -27,6 +27,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | **serverinfo** | Shows information about the server | `/serverinfo` |
 | **userinfo**   | Shows information about the user   | `/userinfo`   |
 | **excuse**     | Sends a random excuse              | `/excuse`     |
+| **show-chess-leaderboard** | Shows information about the current [chess.com](https://www.chess.com) leaderboard              | `/show-chess-leaderboard`     |
 
 
 ## :wrench: Installation
