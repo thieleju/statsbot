@@ -7,7 +7,7 @@ A Discord bot which provides various commands to get statistics from public APIs
 
 ## :sparkles: How to contribute
 
-- Navigate to an open issue and ask to be assigned to it
+- Navigate to an open issue and ask to be assigned to it (or create one yourself)
 - After you are assigned, [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) the repository and create a new branch
 - Make your changes on the new branch and commit them
 - Create a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) and wait for it to be reviewed
