@@ -1,0 +1,41 @@
+name: New Command
+description: Add a new discord bot command!
+title: "[feature]: <title>"
+labels: ["feature", "hacktoberfest"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your interest in contributing to the project! Please fill out the following form to submit a new issue.
+  - type: input
+    id: cmd
+    attributes:
+      label: Command Name
+      description: Put the name of the command here.
+      placeholder: /showPublicAPIData
+    validations:
+      required: true
+  - type: input
+    id: publicAPI
+    attributes:
+      label: Public API Resource
+      description: Put the link to the public API resource here.
+      placeholder: https://github.com/public-apis/public-apis
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Please tell us about your command.
+      placeholder: This command will show public API data.
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
