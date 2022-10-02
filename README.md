@@ -15,7 +15,7 @@ A Discord bot which provides various commands to get statistics from public APIs
 
 For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 
-> No open issues at the moment? Please wait for new issues to be created.
+> No open issues at the moment? Feel free to create one and ask to be assigned to it!
 
 ## :white_check_mark: Available commands
 
