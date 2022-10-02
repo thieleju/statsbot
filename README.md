@@ -20,14 +20,14 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 ## :white_check_mark: Available commands
 
 <!-- markdown table -->
-| Command        | Description                        | Example       |
-| -------------- | ---------------------------------- | ------------- |
-| **invitelink** | Shows the invite link for the bot  | `/invitelink` |
-| **ping**       | Pong!                              | `/ping`       |
-| **serverinfo** | Shows information about the server | `/serverinfo` |
-| **userinfo**   | Shows information about the user   | `/userinfo`   |
-| **excuse**     | Sends a random excuse              | `/excuse`     |
-| **show-chess-leaderboard** | Shows information about the current [chess.com](https://www.chess.com) leaderboard              | `/show-chess-leaderboard`     |
+| Command                   | Description                                               | API                                                             |
+| ------------------------- | --------------------------------------------------------- | --------------------------------------------------------------- |
+| `/invitelink`             | Shows the invite link for the bot                         |                                                                 |
+| `/ping`                   | Pong!                                                     |                                                                 |
+| `/serverinfo`             | Shows information about the server                        |                                                                 |
+| `/userinfo`               | Shows information about the user                          |                                                                 |
+| `/excuse`                 | Sends a random excuse                                     | [Excuser](https://excuser.herokuapp.com/)                       |
+| `/show-chess-leaderboard` | Shows information about the current chess.com leaderboard | [chess.com](https://www.chess.com/news/view/published-data-api) |
 
 
 ## :wrench: Installation
