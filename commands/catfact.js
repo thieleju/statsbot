@@ -12,11 +12,11 @@ module.exports = {
       responseType: "json",
     })
       .then((response) => {
-        console.log(response.data)
+        
         interaction.reply(response.data.data[0]);
       })
       .catch((error) => {
-        interaction.reply("The Excuser API did not respond!");
+        interaction.reply("The Meowfacts API did not respond!");
       });
   },
 };
