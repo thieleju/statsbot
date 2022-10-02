@@ -89,8 +89,9 @@ module.exports = {
     .catch(err => {
       data = err;
     });
+    await interaction.deferReply(); // sometimes it takes longer than max 3 seconds
     const reply = { embeds: [data] };
     // interaction.reply("Working on it...");
-    return await interaction.reply(reply);
+    return await interaction.editReply(reply);
   },
 };
