@@ -5,7 +5,7 @@ const { DateTime, Duration } = require('luxon');
 module.exports = {
 	data: new SlashCommandBuilder()
 		.setName('programmingcontests')
-		.setDescription('5 upcoming programming contests'),
+		.setDescription('Shows five upcoming programming contests'),
 	async execute(interaction) {
 		const contests = (await axios.get('https://kontests.net/api/v1/all')).data
 			.filter(({ start_time }) => (
