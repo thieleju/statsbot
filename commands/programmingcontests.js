@@ -46,7 +46,7 @@ module.exports = {
 			.setTitle('Upcoming programming contests:');
 
 		for (const contest of contests) {
-			const { name, url, start_time, end_time } = contest;
+			const { name, url, start_time, end_time, site } = contest;
 
 			const starts = DateTime.fromISO(start_time).toLocaleString(DateTime.DATETIME_SHORT);
 			const ends = DateTime.fromISO(end_time).toLocaleString(DateTime.DATETIME_SHORT);
@@ -62,7 +62,8 @@ module.exports = {
 			const value = `[Link](${url})
 			**Starts**: ${starts}
 			**Ends**: ${ends}
-			**Duration**: ${duration} ${durationUnit}`;
+			**Duration**: ${duration} ${durationUnit}
+			${site ? `**Platform**: ${site}` : ''}`;
 			embed.addFields({ name, value });
 		}
 		return await interaction.reply({ embeds: [embed] });
