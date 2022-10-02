@@ -29,7 +29,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/excuse`                 | Sends a random excuse                                     | [Excuser](https://excuser.herokuapp.com/)                       |
 | `/show-chess-leaderboard` | Shows information about the current chess.com leaderboard | [chess.com](https://www.chess.com/news/view/published-data-api) |
 | `/numberfact` | Shows a random number fact | [numbersapi.com](http://numbersapi.com/) |
-| `/catfact` | Shows a random fact about cats. | [meowfacts](https://meowfacts.herokuapp.com/) |
+| `/catfact` | Shows a random fact about cats. | [meowfacts](https://github.com/wh-iterabb-it/meowfacts) |
 
 
 ## :wrench: Installation
