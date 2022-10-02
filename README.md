@@ -28,6 +28,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/userinfo`               | Shows information about the user                          |                                                                 |
 | `/excuse`                 | Sends a random excuse                                     | [Excuser](https://excuser.herokuapp.com/)                       |
 | `/show-chess-leaderboard` | Shows information about the current chess.com leaderboard | [chess.com](https://www.chess.com/news/view/published-data-api) |
+| `/numberfact` | Shows a random number fact | [numbersapi.com](http://numbersapi.com/) |
 
 
 ## :wrench: Installation
