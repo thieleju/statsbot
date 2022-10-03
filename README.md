@@ -32,7 +32,9 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/trivia`                 | Fetches a random question with answer as true and false   | [opentdb.com](https://opentdb.com/api.php?amount=1&type=boolean) |
 | `/numberfact`             | Shows a random number fact                                | [numbersapi.com](http://numbersapi.com/)                         |
 | `/catfact`                | Shows a random fact about cats.                           | [meowfacts](https://github.com/wh-iterabb-it/meowfacts)          |
-| `/foxpic`                | Shows a random picture of fox.                           | [RandomFox](https://randomfox.ca/floof/)          |
+| `/dogfact`                | Shows a random fact about dogs                            | [Dog API](http://dog-api.kinduff.com/api/facts)                  |
+| `/foxpic`                | Shows a random picture of fox.                             | [RandomFox](https://randomfox.ca/floof/)                         |
+
 
 ## :wrench: Installation
 
