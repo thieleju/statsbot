@@ -9,10 +9,7 @@ const { Routes } = require("discord.js");
 
 // Create a new client instance
 const client = new Client({
-  partials: [
-    "MESSAGE", 
-    "CHANNEL"
-  ],
+  partials: ["MESSAGE", "CHANNEL"],
   intents: [
     GatewayIntentBits.Guilds,
     GatewayIntentBits.GuildMessages,

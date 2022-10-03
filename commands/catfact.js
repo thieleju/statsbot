@@ -12,7 +12,6 @@ module.exports = {
       responseType: "json",
     })
       .then((response) => {
-        
         interaction.reply(response.data.data[0]);
       })
       .catch((error) => {
