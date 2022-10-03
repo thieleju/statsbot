@@ -8,7 +8,13 @@ const { REST } = require("@discordjs/rest");
 const { Routes } = require("discord.js");
 
 // Create a new client instance
-const client = new Client({ intents: [GatewayIntentBits.Guilds] });
+const client = new Client({
+  intents: [
+    GatewayIntentBits.Guilds,
+    GatewayIntentBits.GuildMessages,
+    GatewayIntentBits.GuildMessageReactions,
+  ],
+});
 
 // Login to Discord with your client's token
 client.login(process.env.DC_BOT_TOKEN).catch(console.error);
