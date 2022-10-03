@@ -12,11 +12,10 @@ module.exports = {
       responseType: "json",
     })
       .then((response) => {
-        console.log("Response msg: "+response.data.url)
         interaction.reply(response.data.url);
       })
       .catch((error) => {
-        interaction.reply("Something went wrong!");
+        interaction.reply("Something went wrong!");s
       });
   },
 };
