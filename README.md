@@ -21,17 +21,18 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 
 <!-- markdown table -->
 
-| Command                   | Description                                               | API                                                              |
-| ------------------------- | --------------------------------------------------------- | ---------------------------------------------------------------- |
-| `/invitelink`             | Shows the invite link for the bot                         |                                                                  |
-| `/ping`                   | Pong!                                                     |                                                                  |
-| `/serverinfo`             | Shows information about the server                        |                                                                  |
-| `/userinfo`               | Shows information about the user                          |                                                                  |
-| `/excuse`                 | Sends a random excuse                                     | [Excuser](https://excuser.herokuapp.com/)                        |
-| `/show-chess-leaderboard` | Shows information about the current chess.com leaderboard | [chess.com](https://www.chess.com/news/view/published-data-api)  |
-| `/trivia`                 | Fetches a random question with answer as true and false   | [opentdb.com](https://opentdb.com/api.php?amount=1&type=boolean) |
-| `/numberfact`             | Shows a random number fact                                | [numbersapi.com](http://numbersapi.com/)                         |
-| `/catfact`                | Shows a random fact about cats.                           | [meowfacts](https://github.com/wh-iterabb-it/meowfacts)          |
+| Command                   | Description                                                       | API                                                              |
+| ------------------------- | ----------------------------------------------------------------- | ---------------------------------------------------------------- |
+| `/invitelink`             | Shows the invite link for the bot                                 |                                                                  |
+| `/ping`                   | Pong!                                                             |                                                                  |
+| `/serverinfo`             | Shows information about the server                                |                                                                  |
+| `/userinfo`               | Shows information about the user                                  |                                                                  |
+| `/excuse`                 | Sends a random excuse                                             | [Excuser](https://excuser.herokuapp.com/)                        |
+| `/show-chess-leaderboard` | Shows information about the current chess.com leaderboard         | [chess.com](https://www.chess.com/news/view/published-data-api)  |
+| `/trivia`                 | Fetches a random question with answer as true and false           | [opentdb.com](https://opentdb.com/api.php?amount=1&type=boolean) |
+| `/numberfact`             | Shows a random number fact                                        | [numbersapi.com](http://numbersapi.com/)                         |
+| `/catfact`                | Shows a random fact about cats.                                   | [meowfacts](https://github.com/wh-iterabb-it/meowfacts)          |
+| `\animequote`             | Reply with Random anime quote option title:anime_title (optional) | [animechan](https://animechan.vercel.app/)                       |
 
 ## :wrench: Installation
 
@@ -53,9 +54,12 @@ Example `.env` file content:
 
 ```html
 DC_BOT_TOKEN=<your bot token>
-DC_BOT_CLIENT_ID=<your application client id>
-DC_BOT_CLIENT_SECRET=<your application client secret>
-DC_BOT_PERMISSIONS=274878131264
+  DC_BOT_CLIENT_ID=<your application client id>
+    DC_BOT_CLIENT_SECRET=<your application client secret>
+      DC_BOT_PERMISSIONS=274878131264</your
+    ></your
+  ></your
+>
 ```
 
 ## :rocket: How to run the bot
