@@ -7,6 +7,9 @@ A Discord bot which provides various commands to get statistics from public APIs
 
 ## :sparkles: How to contribute
 
+> **Warning** <br>
+> Only **one** issue/pull request per person will be accepted. If you want to contribute more, please look for other repositories [here](https://github.com/topics/hacktoberfest-2022?o=desc&s=updated) and keep contributing ❤️
+
 - Navigate to an open issue and ask to be assigned to it (or create one yourself)
 - After you are assigned, [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) the repository and create a new branch
 - Make your changes on the new branch and commit them
@@ -14,8 +17,6 @@ A Discord bot which provides various commands to get statistics from public APIs
 - Thats it!
 
 For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
-
-> No open issues at the moment? Feel free to create one and ask to be assigned to it!
 
 ## :white_check_mark: Available commands
 
@@ -32,7 +33,8 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/trivia`                 | Fetches a random question with answer as true and false   | [opentdb.com](https://opentdb.com/api.php?amount=1&type=boolean) |
 | `/numberfact`             | Shows a random number fact                                | [numbersapi.com](http://numbersapi.com/)                         |
 | `/catfact`                | Shows a random fact about cats.                           | [meowfacts](https://github.com/wh-iterabb-it/meowfacts)          |
-| `/dictionary [word]`      | Get definitions and synonyms of words.                    | [dictionaryapi](https://dictionaryapi.dev/)          |
+| `/dogfact`                | Shows a random fact about dogs                            | [Dog API](http://dog-api.kinduff.com/api/facts)                  |
+| `/dictionary`             | Get definitions and synonyms of words.                    | [dictionaryapi](https://dictionaryapi.dev/)                      |
 
 ## :wrench: Installation
 
