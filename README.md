@@ -31,7 +31,9 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/show-chess-leaderboard` | Shows information about the current chess.com leaderboard | [chess.com](https://www.chess.com/news/view/published-data-api)  |
 | `/trivia`                 | Fetches a random question with answer as true and false   | [opentdb.com](https://opentdb.com/api.php?amount=1&type=boolean) |
 | `/numberfact`             | Shows a random number fact                                | [numbersapi.com](http://numbersapi.com/)                         |
-| `/catfact`                | Shows a random fact about cats.                           | [meowfacts](https://github.com/wh-iterabb-it/meowfacts)          |
+| `/catfact`                | Shows a random fact about cats.                           | [meowfacts](https://github.com/wh-iterabb-it/meowfacts)          | 
+| `/crypto [crypto_name]`    | Provide detail about given crypto currency          | [coinstat](https://documenter.getpostman.com/view/5734027/RzZ6Hzr3)|
+
 
 ## :wrench: Installation
 
