@@ -32,7 +32,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/trivia`                 | Fetches a random question with answer as true and false           | [opentdb.com](https://opentdb.com/api.php?amount=1&type=boolean) |
 | `/numberfact`             | Shows a random number fact                                        | [numbersapi.com](http://numbersapi.com/)                         |
 | `/catfact`                | Shows a random fact about cats.                                   | [meowfacts](https://github.com/wh-iterabb-it/meowfacts)          |
-| `\animequote`             | Reply with Random anime quote option title:anime_title (optional) | [animechan](https://animechan.vercel.app/)                       |
+| `/animequote`             | Reply with Random anime quote option `title:anime_title` (optional) | [animechan](https://animechan.vercel.app/)                       |
 
 ## :wrench: Installation
 
