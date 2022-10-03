@@ -36,7 +36,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/en/download/) (v16.6.0 or higher)
-- Discord Account
+- Discord Account 
 
 
 ### Project Setup
@@ -51,6 +51,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 Example `.env` file content:
 
 ```html
+DC_BOT_TOKEN=<your bot token>
 DC_BOT_CLIENT_ID=<your application client id>
 DC_BOT_CLIENT_SECRET=<your application client secret>
 DC_BOT_PERMISSIONS=274878131264
