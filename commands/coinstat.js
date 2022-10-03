@@ -23,9 +23,7 @@ module.exports = {
             url: URL,
             responseType: "json",
         }).then(async (res) => {
-            console.log(res.data)
             const resData = res.data.coin;
-            console.log(resData)
 
 
             const data = `
