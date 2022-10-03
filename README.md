@@ -36,6 +36,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/dictionary`             | Get definitions and synonyms of words.                    | [dictionaryapi](https://dictionaryapi.dev/)                      |
 | `/foxpic`                 | Shows a random picture of a fox.                          | [RandomFox](https://randomfox.ca/floof/)                         |
 | `/mathquestion`           | Sends a random math question.                             | [xMath API](https://x-math.herokuapp.com/)                       |
+| `/uptime`                 | Shows how long Stats-Bot has been up.                     | [Countdown NPM Package](https://www.npmjs.com/package/countdown) |
 
 ## :wrench: Installation
 
