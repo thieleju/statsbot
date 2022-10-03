@@ -12,7 +12,7 @@ module.exports = {
       responseType: "json",
     })
       .then((response) => {
-        interaction.reply("'"+response.data.quote+"'");
+        interaction.reply("``"+response.data.quote+"``");
       })
       .catch((error) => {
         interaction.reply("The Motivation API did not respond!");
