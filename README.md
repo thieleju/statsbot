@@ -35,6 +35,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/catfact`                | Shows a random fact about cats.                           | [meowfacts](https://github.com/wh-iterabb-it/meowfacts)          |
 | `/dogfact`                | Shows a random fact about dogs                            | [Dog API](http://dog-api.kinduff.com/api/facts)                  |
 | `/dictionary`             | Get definitions and synonyms of words.                    | [dictionaryapi](https://dictionaryapi.dev/)                      |
+| `/foxpic`                 | Shows a random picture of a fox.                            | [RandomFox](https://randomfox.ca/floof/)                         |
 
 ## :wrench: Installation
 
