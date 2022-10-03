@@ -38,6 +38,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/mathquestion`           | Sends a random math question.                             | [xMath API](https://x-math.herokuapp.com/)                         |
 | `/uptime`                 | Shows how long Stats-Bot has been up.                     | [Countdown NPM Package](https://www.npmjs.com/package/countdown)   |
 | `/crypto`                 | Provide detail about given crypto currency.               | [coinstat](https://documenter.getpostman.com/view/5734027/RzZ6Hzr3)|
+| `/motivation`             | Shows a random motivation quote.                          | [motivation](https://nodejs-quoteapp.herokuapp.com/)               |
 
 ## :wrench: Installation
 
@@ -67,7 +68,7 @@ DC_BOT_PERMISSIONS=274878131264
 ## :rocket: How to run the bot
 
 ```sh
-npm run serve
+npm run dev
 ```
 
 This runs the application with [nodemon](https://www.npmjs.com/package/nodemon) which automatically restarts the application when changes are made.
