@@ -32,6 +32,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/trivia`                 | Fetches a random question with answer as true and false   | [opentdb.com](https://opentdb.com/api.php?amount=1&type=boolean) |
 | `/numberfact`             | Shows a random number fact                                | [numbersapi.com](http://numbersapi.com/)                         |
 | `/catfact`                | Shows a random fact about cats.                           | [meowfacts](https://github.com/wh-iterabb-it/meowfacts)          |
+| `/motivation`                | Shows a random motivation quote.                           | [motivation](https://nodejs-quoteapp.herokuapp.com/)   
 
 ## :wrench: Installation
 
@@ -61,7 +62,7 @@ DC_BOT_PERMISSIONS=274878131264
 ## :rocket: How to run the bot
 
 ```sh
-npm run serve
+npm run dev
 ```
 
 This runs the application with [nodemon](https://www.npmjs.com/package/nodemon) which automatically restarts the application when changes are made.
