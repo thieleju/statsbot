@@ -8,7 +8,18 @@ const { REST } = require("@discordjs/rest");
 const { Routes } = require("discord.js");
 
 // Create a new client instance
-const client = new Client({ partials: ["MESSAGE", "CHANNEL"], intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent] });
+const client = new Client({
+  partials: [
+    "MESSAGE", 
+    "CHANNEL"
+  ],
+  intents: [
+    GatewayIntentBits.Guilds,
+    GatewayIntentBits.GuildMessages,
+    GatewayIntentBits.GuildMessageReactions,
+    GatewayIntentBits.MessageContent,
+  ],
+});
 
 // Login to Discord with your client's token
 client.login(process.env.DC_BOT_TOKEN).catch(console.error);
@@ -40,13 +51,13 @@ rest
     body: commands,
   })
   .then(() =>
-    console.log("[SYTEM] Successfully registered application commands.")
+    console.log("[SYSTEM] Successfully registered application commands.")
   )
   .catch(console.error);
 
 // When the client is ready, run this code (only once)
 client.once("ready", () => {
-  console.log("[SYTEM] Bot ready and online!");
+  console.log("[SYSTEM] Bot ready and online!");
 });
 
 // React to chat interactions
