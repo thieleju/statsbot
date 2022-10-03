@@ -7,7 +7,7 @@ A Discord bot which provides various commands to get statistics from public APIs
 
 ## :sparkles: How to contribute
 
-> **Important** <br>
+> **Warning** <br>
 > Only **one** issue/pull request per person will be accepted. If you want to contribute more, please look for other repositories [here](https://github.com/topics/hacktoberfest-2022?o=desc&s=updated) and keep contributing ❤️
 
 - Navigate to an open issue and ask to be assigned to it (or create one yourself)
