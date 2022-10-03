@@ -15,7 +15,7 @@ module.exports = {
         interaction.reply(response.data.url);
       })
       .catch((error) => {
-        interaction.reply("Something went wrong!");s
+        interaction.reply("Something went wrong!");
       });
   },
 };
