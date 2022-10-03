@@ -31,7 +31,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/trivia`                 | Fetches a random question with answer as true and false   | [opentdb.com](https://opentdb.com/api.php?amount=1&type=boolean) |
 | `/numberfact`             | Shows a random number fact                                | [numbersapi.com](http://numbersapi.com/)                         |
 | `/catfact`                | Shows a random fact about cats.                           | [meowfacts](https://github.com/wh-iterabb-it/meowfacts)          |
-| `/mathquestion`           | Sends a random math question.                             | []                                                               |
+| `/mathquestion`           | Sends a random math question.                             | [xMath API](https://x-math.herokuapp.com/)                                                               |
 
 ## :wrench: Installation
 
