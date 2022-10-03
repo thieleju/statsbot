@@ -39,6 +39,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/uptime`                 | Shows how long Stats-Bot has been up.                     | [Countdown NPM Package](https://www.npmjs.com/package/countdown)    |
 | `/crypto`                 | Provide detail about given crypto currency.               | [coinstat](https://documenter.getpostman.com/view/5734027/RzZ6Hzr3) |
 | `/motivation`             | Shows a random motivation quote.                          | [motivation](https://nodejs-quoteapp.herokuapp.com/)                |
+| `/breakingbad`            | Shows a random Breaking Bad quote.                        | [Breaking Bad Quotes Api](https://breakingbadquotes.xyz/)           |
 
 ## :wrench: Installation
 
