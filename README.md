@@ -21,22 +21,23 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 ## :white_check_mark: Available commands
 
 <!-- markdown table -->
-| Command                   | Description                                               | API                                                              |
-| ------------------------- | --------------------------------------------------------- | ---------------------------------------------------------------- |
-| `/invitelink`             | Shows the invite link for the bot                         |                                                                  |
-| `/ping`                   | Pong!                                                     |                                                                  |
-| `/serverinfo`             | Shows information about the server                        |                                                                  |
-| `/userinfo`               | Shows information about the user                          |                                                                  |
-| `/excuse`                 | Sends a random excuse                                     | [Excuser](https://excuser.herokuapp.com/)                        |
-| `/show-chess-leaderboard` | Shows information about the current chess.com leaderboard | [chess.com](https://www.chess.com/news/view/published-data-api)  |
-| `/trivia`                 | Fetches a random question with answer as true and false   | [opentdb.com](https://opentdb.com/api.php?amount=1&type=boolean) |
-| `/numberfact`             | Shows a random number fact                                | [numbersapi.com](http://numbersapi.com/)                         |
-| `/catfact`                | Shows a random fact about cats.                           | [meowfacts](https://github.com/wh-iterabb-it/meowfacts)          |
-| `/dogfact`                | Shows a random fact about dogs                            | [Dog API](http://dog-api.kinduff.com/api/facts)                  |
-| `/dictionary`             | Get definitions and synonyms of words.                    | [dictionaryapi](https://dictionaryapi.dev/)                      |
-| `/foxpic`                 | Shows a random picture of a fox.                          | [RandomFox](https://randomfox.ca/floof/)                         |
-| `/mathquestion`           | Sends a random math question.                             | [xMath API](https://x-math.herokuapp.com/)                       |
-| `/uptime`                 | Shows how long Stats-Bot has been up.                     | [Countdown NPM Package](https://www.npmjs.com/package/countdown) |
+| Command                   | Description                                               | API                                                                |
+| ------------------------- | --------------------------------------------------------- | ------------------------------------------------------------------ |
+| `/invitelink`             | Shows the invite link for the bot                         |                                                                    |
+| `/ping`                   | Pong!                                                     |                                                                    |
+| `/serverinfo`             | Shows information about the server                        |                                                                    |
+| `/userinfo`               | Shows information about the user                          |                                                                    |
+| `/excuse`                 | Sends a random excuse                                     | [Excuser](https://excuser.herokuapp.com/)                          |
+| `/show-chess-leaderboard` | Shows information about the current chess.com leaderboard | [chess.com](https://www.chess.com/news/view/published-data-api)    |
+| `/trivia`                 | Fetches a random question with answer as true and false   | [opentdb.com](https://opentdb.com/api.php?amount=1&type=boolean)   |
+| `/numberfact`             | Shows a random number fact                                | [numbersapi.com](http://numbersapi.com/)                           |
+| `/catfact`                | Shows a random fact about cats.                           | [meowfacts](https://github.com/wh-iterabb-it/meowfacts)            |
+| `/dogfact`                | Shows a random fact about dogs.                           | [Dog API](http://dog-api.kinduff.com/api/facts)                    |
+| `/dictionary`             | Get definitions and synonyms of words.                    | [dictionaryapi](https://dictionaryapi.dev/)                        |
+| `/foxpic`                 | Shows a random picture of a fox.                          | [RandomFox](https://randomfox.ca/floof/)                           |
+| `/mathquestion`           | Sends a random math question.                             | [xMath API](https://x-math.herokuapp.com/)                         |
+| `/uptime`                 | Shows how long Stats-Bot has been up.                     | [Countdown NPM Package](https://www.npmjs.com/package/countdown)   |
+| `/crypto`                 | Provide detail about given crypto currency.               | [coinstat](https://documenter.getpostman.com/view/5734027/RzZ6Hzr3)|
 
 ## :wrench: Installation
 
