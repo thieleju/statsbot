@@ -32,7 +32,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/trivia`                 | Fetches a random question with answer as true and false   | [opentdb.com](https://opentdb.com/api.php?amount=1&type=boolean) |
 | `/numberfact`             | Shows a random number fact                                | [numbersapi.com](http://numbersapi.com/)                         |
 | `/catfact`                | Shows a random fact about cats.                           | [meowfacts](https://github.com/wh-iterabb-it/meowfacts)          |
-| `/dictionary [word]`                | Get definitions and synonyms of words.                           | [dictionaryapi](https://dictionaryapi.dev/)          |
+| `/dictionary [word]`      | Get definitions and synonyms of words.                    | [dictionaryapi](https://dictionaryapi.dev/)          |
 
 ## :wrench: Installation
 
