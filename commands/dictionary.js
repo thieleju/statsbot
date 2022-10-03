@@ -17,7 +17,6 @@ module.exports = {
             responseType: "json",
         })
             .then((response) => {
-                console.log(word);
                 const meanings = response.data[0].meanings;
                 const embed = new EmbedBuilder()
                     .setColor(0x0099FF)
