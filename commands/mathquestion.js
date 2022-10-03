@@ -18,16 +18,16 @@ module.exports = {
         let min = interaction.options.getNumber("min");
         let max = interaction.options.getNumber("max");
 
-        if (max === min || min > max) {
-            min = 20;
-            max = 400;
-        }
-
         if (!min) {
             min = 20;
         }
 
         if (!max) {
+            max = 400;
+        }
+
+        if (max === min || min > max) {
+            min = 20;
             max = 400;
         }
 
