@@ -41,6 +41,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/motivation`             | Shows a random motivation quote.                          | [motivation](https://nodejs-quoteapp.herokuapp.com/)                |
 | `/breakingbad`            | Shows a random Breaking Bad quote.                        | [Breaking Bad Quotes Api](https://breakingbadquotes.xyz/)           |
 | `/dogpic`                 | Shows a random dog picture.                               | [Dog Pic API](https://random.dog/woof.json/)                |
+| `/joke`                   | Give you a random joke.                                   | [Joke API](https://sv443.net/jokeapi/v2/)|
 
 ## :wrench: Installation
 
