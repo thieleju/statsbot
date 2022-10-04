@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo 'Error: No test specified'",
-    "dev": "nodemon index.js -e js,json",
+    "format": "echo 'Formatting js files ...' && prettier --loglevel silent --write *.js commands/*.js",
+    "dev": "npm run format && nodemon index.js -e js,json",
     "production": "node index.js"
   },
   "repository": {
@@ -27,6 +28,7 @@
   },
   "devDependencies": {
     "eslint": "^8.24.0",
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "prettier": "^2.7.1"
   }
 }
