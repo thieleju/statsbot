@@ -44,7 +44,9 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/catpic`                 | Shows a random cat picture.                               | [Cat Pic API](https://aws.random.cat/meow/)                         |
 | `/joke`                   | Give you a random joke.                                   | [Joke API](https://sv443.net/jokeapi/v2/)                           |
 | `/chuck`                  | Shows a random joke about Chuck Norris                    | [Chuck Norris API](https://api.chucknorris.io/jokes/random)         |
-| `/npm` | Query the NPM registry for npm package details | [NPM Registry](https://github.com/npm/registry/blob/master/docs/REGISTRY-API.md)
+| `/animequote`             | Shows a random anime quote.                               | [anime-chan](https://animechan.vercel.app/)                         |
+| `/bored`                  | Get something to do if you are bored.                     | [Bored API](http://www.boredapi.com/api/activity/)
+| `/npm`                    | Query the NPM registry for npm package details            | [NPM Registry](https://github.com/npm/registry/blob/master/docs/REGISTRY-API.md)
 
 ## :wrench: Installation
 
