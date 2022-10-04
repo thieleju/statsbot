@@ -21,32 +21,34 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 ## :white_check_mark: Available commands
 
 <!-- markdown table -->
-| Command                   | Description                                               | API                                                                 |
-| ------------------------- | --------------------------------------------------------- | ------------------------------------------------------------------- |
-| `/invitelink`             | Shows the invite link for the bot                         |                                                                     |
-| `/ping`                   | Pong!                                                     |                                                                     |
-| `/serverinfo`             | Shows information about the server                        |                                                                     |
-| `/userinfo`               | Shows information about the user                          |                                                                     |
-| `/excuse`                 | Sends a random excuse                                     | [Excuser](https://excuser.herokuapp.com/)                           |
-| `/show-chess-leaderboard` | Shows information about the current chess.com leaderboard | [chess.com](https://www.chess.com/news/view/published-data-api)     |
-| `/trivia`                 | Shows a random question, react with ✅ or ❌.            | [opentdb.com](https://opentdb.com/api.php?amount=1&type=boolean)    |
-| `/numberfact`             | Shows a random number fact                                | [numbersapi.com](http://numbersapi.com/)                            |
-| `/catfact`                | Shows a random fact about cats.                           | [meowfacts](https://github.com/wh-iterabb-it/meowfacts)             |
-| `/dogfact`                | Shows a random fact about dogs.                           | [Dog API](http://dog-api.kinduff.com/api/facts)                     |
-| `/dictionary`             | Get definitions and synonyms of words.                    | [dictionaryapi](https://dictionaryapi.dev/)                         |
-| `/foxpic`                 | Shows a random picture of a fox.                          | [RandomFox](https://randomfox.ca/floof/)                            |
-| `/mathquestion`           | Sends a random math question.                             | [xMath API](https://x-math.herokuapp.com/)                          |
-| `/uptime`                 | Shows how long Stats-Bot has been up.                     | [Countdown NPM Package](https://www.npmjs.com/package/countdown)    |
-| `/crypto`                 | Provide detail about given crypto currency.               | [coinstat](https://documenter.getpostman.com/view/5734027/RzZ6Hzr3) |
-| `/motivation`             | Shows a random motivation quote.                          | [motivation](https://nodejs-quoteapp.herokuapp.com/)                |
-| `/breakingbad`            | Shows a random Breaking Bad quote.                        | [Breaking Bad Quotes Api](https://breakingbadquotes.xyz/)           |
-| `/dogpic`                 | Shows a random dog picture.                               | [Dog Pic API](https://random.dog/woof.json/)                        |
-| `/catpic`                 | Shows a random cat picture.                               | [Cat Pic API](https://aws.random.cat/meow/)                         |
-| `/joke`                   | Give you a random joke.                                   | [Joke API](https://sv443.net/jokeapi/v2/)                           |
-| `/chuck`                  | Shows a random joke about Chuck Norris                    | [Chuck Norris API](https://api.chucknorris.io/jokes/random)         |
-| `/animequote`             | Shows a random anime quote.                               | [anime-chan](https://animechan.vercel.app/)                         |
-| `/bored`                  | Get something to do if you are bored.                     | [Bored API](http://www.boredapi.com/api/activity/)                  |
+| Command                   | Description                                               | API                                                                             |
+| ------------------------- | --------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| `/invitelink`             | Shows the invite link for the bot                         |                                                                                 |
+| `/ping`                   | Pong!                                                     |                                                                                 |
+| `/serverinfo`             | Shows information about the server                        |                                                                                 |
+| `/userinfo`               | Shows information about the user                          |                                                                                 |
+| `/excuse`                 | Sends a random excuse                                     | [Excuser](https://excuser.herokuapp.com/)                                       |
+| `/show-chess-leaderboard` | Shows information about the current chess.com leaderboard | [chess.com](https://www.chess.com/news/view/published-data-api)                 |
+| `/trivia`                 | Shows a random question, react with ✅ or ❌.            | [opentdb.com](https://opentdb.com/api.php?amount=1&type=boolean)                |
+| `/numberfact`             | Shows a random number fact                                | [numbersapi.com](http://numbersapi.com/)                                        |
+| `/catfact`                | Shows a random fact about cats.                           | [meowfacts](https://github.com/wh-iterabb-it/meowfacts)                         |
+| `/dogfact`                | Shows a random fact about dogs.                           | [Dog API](http://dog-api.kinduff.com/api/facts)                                 |
+| `/dictionary`             | Get definitions and synonyms of words.                    | [dictionaryapi](https://dictionaryapi.dev/)                                     |
+| `/foxpic`                 | Shows a random picture of a fox.                          | [RandomFox](https://randomfox.ca/floof/)                                        |
+| `/mathquestion`           | Sends a random math question.                             | [xMath API](https://x-math.herokuapp.com/)                                      |
+| `/uptime`                 | Shows how long Stats-Bot has been up.                     | [Countdown NPM Package](https://www.npmjs.com/package/countdown)                |
+| `/crypto`                 | Provide detail about given crypto currency.               | [coinstat](https://documenter.getpostman.com/view/5734027/RzZ6Hzr3)             |
+| `/motivation`             | Shows a random motivation quote.                          | [motivation](https://nodejs-quoteapp.herokuapp.com/)                            |
+| `/breakingbad`            | Shows a random Breaking Bad quote.                        | [Breaking Bad Quotes Api](https://breakingbadquotes.xyz/)                       |
+| `/dogpic`                 | Shows a random dog picture.                               | [Dog Pic API](https://random.dog/woof.json/)                                    |
+| `/catpic`                 | Shows a random cat picture.                               | [Cat Pic API](https://aws.random.cat/meow/)                                     |
+| `/joke`                   | Give you a random joke.                                   | [Joke API](https://sv443.net/jokeapi/v2/)                                       |
+| `/chuck`                  | Shows a random joke about Chuck Norris                    | [Chuck Norris API](https://api.chucknorris.io/jokes/random)                     |
+| `/animequote`             | Shows a random anime quote.                               | [anime-chan](https://animechan.vercel.app/)                                     |
+| `/bored`                  | Get something to do if you are bored.                     | [Bored API](http://www.boredapi.com/api/activity/)                              |
+| `/websiteicon`            | Shows the favicon of the requested sit.                   | [Icon Horse API](https://icon.horse/)                                           |
 | `/guessage`               | Guess the age of a specific or random name.               | [Agify API](https://agify.io/), [Random Data API](https://random-data-api.com/) |
+
 
 ## :wrench: Installation
 
