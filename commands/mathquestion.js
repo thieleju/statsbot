@@ -1,6 +1,6 @@
-const { SlashCommandBuilder } = require("discord.js");
-const axios = require("axios").default;
-let collector;
+const { SlashCommandBuilder } = require("discord.js")
+const axios = require("axios").default
+let collector
 
 module.exports = {
   data: new SlashCommandBuilder()
@@ -24,35 +24,35 @@ module.exports = {
         .setRequired(false)
     ),
   async execute(interaction) {
-    let ingame = true;
+    let ingame = true
 
-    await interaction.reply("Let's go!");
+    await interaction.reply("Let's go!")
 
-    let min = interaction.options.getNumber("min");
-    let max = interaction.options.getNumber("max");
+    let min = interaction.options.getNumber("min")
+    let max = interaction.options.getNumber("max")
 
     if (!min) {
-      min = 20;
+      min = 20
     }
 
     if (!max) {
-      max = 400;
+      max = 400
     }
 
     if (max === min || min > max) {
-      min = 20;
-      max = 400;
+      min = 20
+      max = 400
     }
 
-    let mode = interaction.options.getString("mode");
-    let time;
+    let mode = interaction.options.getString("mode")
+    let time
 
     if (!mode || mode.toLowerCase() === "easy") {
-      time = 30000;
+      time = 30000
     } else if (mode.toLowerCase() === "medium") {
-      time = 20000;
+      time = 20000
     } else if (mode.toLowerCase() === "hard") {
-      time = 10000;
+      time = 10000
     }
 
     await axios({
@@ -65,54 +65,54 @@ module.exports = {
           `What is the result for **${response.data.expression}**?`,
           `Do you know the result for **${response.data.expression}**?`,
           `What is the solution for **${response.data.expression}**?`,
-        ];
-        let question = questions[Math.floor(Math.random() * questions.length)];
-        let answer = response.data.answer;
+        ]
+        let question = questions[Math.floor(Math.random() * questions.length)]
+        let answer = response.data.answer
 
-        await interaction.channel.send(`${interaction.member}, ${question}`);
+        await interaction.channel.send(`${interaction.member}, ${question}`)
 
-        let filter = (m) => m.author.id === interaction.member.id;
+        let filter = (m) => m.author.id === interaction.member.id
         collector = await interaction.channel.createMessageCollector({
           filter,
           time: time,
-        });
+        })
 
         collector.on("collect", async (col) => {
           if (ingame) {
             if (isNaN(col.content)) {
               await interaction.channel.send(
                 `${col.author} **${col.content}** is not a number.`
-              );
+              )
             }
 
             if (!isNaN(col.content) && parseInt(col.content) === answer) {
-              ingame = false;
+              ingame = false
               return await interaction.channel.send(
                 `Congratulations ${col.author}! The answer **${answer}** is correct!`
-              );
+              )
             } else if (
               !isNaN(col.content) &&
               parseInt(col.content) !== answer
             ) {
-              ingame = false;
+              ingame = false
               return await interaction.channel.send(
                 `Sorry ${col.author}. You calculated **${col.content}** but the answer was **${answer}**`
-              );
+              )
             }
           }
-        });
+        })
 
         collector.on("end", async (col) => {
           if (ingame) {
-            ingame = false;
+            ingame = false
             return await interaction.channel.send(
               `Sorry ${interaction.member}. Time is up. The answer was **${answer}**.`
-            );
+            )
           }
-        });
+        })
       })
       .catch((error) => {
-        interaction.reply("The math question API did not respond!");
-      });
+        interaction.reply("The math question API did not respond!")
+      })
   },
-};
+}

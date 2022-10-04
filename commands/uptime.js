@@ -1,7 +1,7 @@
-const { SlashCommandBuilder } = require("discord.js");
-const countdown = require("countdown");
+const { SlashCommandBuilder } = require("discord.js")
+const countdown = require("countdown")
 
-const bootTime = new Date();
+const bootTime = new Date()
 
 module.exports = {
   data: new SlashCommandBuilder()
@@ -12,6 +12,6 @@ module.exports = {
       `Stats-Bot has been up since ${bootTime.toUTCString()} for a total of: ${countdown(
         bootTime
       )}`
-    );
+    )
   },
-};
+}

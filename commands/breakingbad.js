@@ -1,5 +1,5 @@
-const { SlashCommandBuilder } = require("discord.js");
-const axios = require("axios").default;
+const { SlashCommandBuilder } = require("discord.js")
+const axios = require("axios").default
 
 module.exports = {
   data: new SlashCommandBuilder()
@@ -14,10 +14,10 @@ module.exports = {
       .then((response) => {
         interaction.reply(
           "**> " + response.data[0].quote + "**" + response.data[0].author
-        );
+        )
       })
       .catch((error) => {
-        interaction.reply("The Breaking Bad Quotes API did not respond!");
-      });
+        interaction.reply("The Breaking Bad Quotes API did not respond!")
+      })
   },
-};
+}

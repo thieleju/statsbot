@@ -1,5 +1,5 @@
-const { SlashCommandBuilder } = require("discord.js");
-const axios = require("axios").default;
+const { SlashCommandBuilder } = require("discord.js")
+const axios = require("axios").default
 
 module.exports = {
   data: new SlashCommandBuilder()
@@ -81,22 +81,22 @@ module.exports = {
         )
     ),
   async execute(interaction) {
-    let number = interaction.options.getInteger("number") ?? "random";
-    let year = interaction.options.getInteger("year") ?? "random";
-    let month = interaction.options.getInteger("month");
-    let day = interaction.options.getInteger("day");
+    let number = interaction.options.getInteger("number") ?? "random"
+    let year = interaction.options.getInteger("year") ?? "random"
+    let month = interaction.options.getInteger("month")
+    let day = interaction.options.getInteger("day")
 
-    let type = interaction.options.getSubcommand();
-    let url = `http://numbersapi.com/${number}/${type}`;
+    let type = interaction.options.getSubcommand()
+    let url = `http://numbersapi.com/${number}/${type}`
 
     switch (type) {
       case "year":
-        url = `http://numbersapi.com/${year}/${type}`;
-        break;
+        url = `http://numbersapi.com/${year}/${type}`
+        break
 
       case "date":
-        url = `http://numbersapi.com/${month}/${day}/${type}`;
-        break;
+        url = `http://numbersapi.com/${month}/${day}/${type}`
+        break
     }
 
     await axios({
@@ -105,10 +105,10 @@ module.exports = {
       responseType: "text",
     })
       .then((response) => {
-        interaction.reply(response.data);
+        interaction.reply(response.data)
       })
       .catch((error) => {
-        interaction.reply("The Numbers API did not respond!");
-      });
+        interaction.reply("The Numbers API did not respond!")
+      })
   },
-};
+}

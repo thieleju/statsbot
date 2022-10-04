@@ -1,5 +1,5 @@
-const { SlashCommandBuilder } = require("discord.js");
-const axios = require("axios").default;
+const { SlashCommandBuilder } = require("discord.js")
+const axios = require("axios").default
 
 module.exports = {
   data: new SlashCommandBuilder()
@@ -13,10 +13,10 @@ module.exports = {
     ),
   async execute(interaction) {
     // get provided domain name
-    const domain = interaction.options.getString("domain");
+    const domain = interaction.options.getString("domain")
     // build 'request' url
-    const url = `https://icon.horse/icon/${domain}`;
+    const url = `https://icon.horse/icon/${domain}`
     // reply with url
-    interaction.reply(url);
+    interaction.reply(url)
   },
-};
+}

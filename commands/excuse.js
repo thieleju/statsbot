@@ -1,5 +1,5 @@
-const { SlashCommandBuilder } = require("discord.js");
-const axios = require("axios").default;
+const { SlashCommandBuilder } = require("discord.js")
+const axios = require("axios").default
 
 module.exports = {
   data: new SlashCommandBuilder()
@@ -12,10 +12,10 @@ module.exports = {
       responseType: "json",
     })
       .then((response) => {
-        interaction.reply(response.data[0].excuse);
+        interaction.reply(response.data[0].excuse)
       })
       .catch((error) => {
-        interaction.reply("The Excuser API did not respond!");
-      });
+        interaction.reply("The Excuser API did not respond!")
+      })
   },
-};
+}
