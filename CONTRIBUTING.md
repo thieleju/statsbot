@@ -3,7 +3,7 @@
 > **Warning** <br>
 > Only **one** issue/pull request per person will be accepted. If you want to contribute more, please look for other repositories [here](https://github.com/topics/hacktoberfest-2022?o=desc&s=updated) and keep contributing ❤️
 
-When contributing to this repository, please first **ask to be assigned to an issue**.
+When contributing to this repository, please first **ask to be assigned to an issue**.<br>
 Feel free to create an issue by yourself and ask to be assigned to it!
 
 Please note we have a [code of conduct](CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
