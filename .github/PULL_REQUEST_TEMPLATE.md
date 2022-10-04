@@ -2,7 +2,7 @@
 
 - [ ] Code is formatted correctly
 - [ ] Code is tested before submitting
-- [ ] Updated README.md commands list with my new command
+- [ ] Added command to README.md commands list
 
 ## Details
 
