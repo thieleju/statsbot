@@ -40,8 +40,10 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/crypto`                 | Provide detail about given crypto currency.               | [coinstat](https://documenter.getpostman.com/view/5734027/RzZ6Hzr3) |
 | `/motivation`             | Shows a random motivation quote.                          | [motivation](https://nodejs-quoteapp.herokuapp.com/)                |
 | `/breakingbad`            | Shows a random Breaking Bad quote.                        | [Breaking Bad Quotes Api](https://breakingbadquotes.xyz/)           |
-| `/dogpic`                 | Shows a random dog picture.                               | [Dog Pic API](https://random.dog/woof.json/)                |
-| `/chuck`                  | Shows a random joke about Chuck Norris                    | [Chuck Norris API](https://api.chucknorris.io/jokes/random)
+| `/dogpic`                 | Shows a random dog picture.                               | [Dog Pic API](https://random.dog/woof.json/)                        |
+| `/catpic`                 | Shows a random cat picture.                               | [Cat Pic API](https://aws.random.cat/meow/)                         |
+| `/joke`                   | Give you a random joke.                                   | [Joke API](https://sv443.net/jokeapi/v2/)                           |
+| `/chuck`                  | Shows a random joke about Chuck Norris                    | [Chuck Norris API](https://api.chucknorris.io/jokes/random)         |
 
 ## :wrench: Installation
 
