@@ -21,7 +21,6 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 ## :white_check_mark: Available commands
 
 <!-- markdown table -->
-
 | Command                   | Description                                               | API                                                                 |
 | ------------------------- | --------------------------------------------------------- | ------------------------------------------------------------------- |
 | `/invitelink`             | Shows the invite link for the bot                         |                                                                     |
@@ -30,7 +29,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/userinfo`               | Shows information about the user                          |                                                                     |
 | `/excuse`                 | Sends a random excuse                                     | [Excuser](https://excuser.herokuapp.com/)                           |
 | `/show-chess-leaderboard` | Shows information about the current chess.com leaderboard | [chess.com](https://www.chess.com/news/view/published-data-api)     |
-| `/trivia`                 | Shows a random question, react with ✅ or ❌.             | [opentdb.com](https://opentdb.com/api.php?amount=1&type=boolean)    |
+| `/trivia`                 | Shows a random question, react with ✅ or ❌.            | [opentdb.com](https://opentdb.com/api.php?amount=1&type=boolean)    |
 | `/numberfact`             | Shows a random number fact                                | [numbersapi.com](http://numbersapi.com/)                            |
 | `/catfact`                | Shows a random fact about cats.                           | [meowfacts](https://github.com/wh-iterabb-it/meowfacts)             |
 | `/dogfact`                | Shows a random fact about dogs.                           | [Dog API](http://dog-api.kinduff.com/api/facts)                     |
@@ -41,8 +40,8 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/crypto`                 | Provide detail about given crypto currency.               | [coinstat](https://documenter.getpostman.com/view/5734027/RzZ6Hzr3) |
 | `/motivation`             | Shows a random motivation quote.                          | [motivation](https://nodejs-quoteapp.herokuapp.com/)                |
 | `/breakingbad`            | Shows a random Breaking Bad quote.                        | [Breaking Bad Quotes Api](https://breakingbadquotes.xyz/)           |
-| `/dogpic`                 | Shows a random dog picture.                               | [Dog Pic API](https://random.dog/woof.json/)                        |
-| `/joke`                   | Give you a random joke.                                   | [Joke API](https://sv443.net/jokeapi/v2/)                           |
+| `/dogpic`                 | Shows a random dog picture.                               | [Dog Pic API](https://random.dog/woof.json/)                |
+| `/joke`                   | Give you a random joke.                                   | [Joke API](https://sv443.net/jokeapi/v2/)|
 
 ## :wrench: Installation
 
@@ -64,8 +63,9 @@ Example `.env` file content:
 
 ```html
 DC_BOT_TOKEN=<your bot token>
-  DC_BOT_CLIENT_ID=<your application client id> DC_BOT_CLIENT_SECRET=<your application client secret> DC_BOT_PERMISSIONS=274878131264</your></your></your
->
+DC_BOT_CLIENT_ID=<your application client id>
+DC_BOT_CLIENT_SECRET=<your application client secret>
+DC_BOT_PERMISSIONS=274878131264
 ```
 
 ## :rocket: How to run the bot
