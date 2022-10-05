@@ -32,7 +32,6 @@ module.exports = {
       data = res.data
     } catch (error) {
       await interaction.editReply("Ooops! Something went wrong...")
-      console.log("/series command encountered an error: " + error)
       return
     }
 
