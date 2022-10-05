@@ -51,7 +51,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/websiteicon`            | Shows the favicon of the requested sit.                   | [Icon Horse API](https://icon.horse/)                                            |
 | `/guessage`               | Guess the age of a specific or random name.               | [Agify API](https://agify.io/), [Random Data API](https://random-data-api.com/)  |
 | `/npm`                    | Query the NPM registry for npm package details.           | [NPM Registry](https://github.com/npm/registry/blob/master/docs/REGISTRY-API.md) |
-
+| `/tecchy`                | Shows a random tech-savvy phrase.                           | [TechyAPI](https://techy-api.vercel.app/api/json)          |
 ## :wrench: Installation
 
 ### Prerequisites
