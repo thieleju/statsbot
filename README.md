@@ -1,6 +1,7 @@
 # StatsBot - A Discord Bot to gather data from public APIs
 
 [![CodeQL](https://github.com/thieleju/statsbot/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/thieleju/statsbot/actions/workflows/codeql-analysis.yml)
+[![Prettier Check](https://github.com/thieleju/statsbot/actions/workflows/prettier-check.yml/badge.svg)](https://github.com/thieleju/statsbot/actions/workflows/prettier-check.yml)
 
 > **Note** <br>
 > This project does participate in the **Hacktoberfest 2022** event!
