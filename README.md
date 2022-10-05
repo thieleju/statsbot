@@ -53,6 +53,8 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/guessage`               | Guess the age of a specific or random name.               | [Agify API](https://agify.io/), [Random Data API](https://random-data-api.com/)  |
 | `/npm`                    | Query the NPM registry for npm package details.           | [NPM Registry](https://github.com/npm/registry/blob/master/docs/REGISTRY-API.md) |
 | `/stockimage`             | Get a random 1920x1080p stock image.                      | [Lorem Picsum](https://picsum.photos/)                                           |
+| `/tecchy`                 | Shows a random tech-savvy phrase.                         | [TechyAPI](https://techy-api.vercel.app/api/json)                                |
+| `/affirmation`            | Shows a random affirmation quote.                         | [Affirmation Dev API](https://www.affirmations.dev/)                             |
 
 ## :wrench: Installation
 
