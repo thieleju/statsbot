@@ -5,7 +5,7 @@
 > **Note** <br>
 > This project does participate in the **Hacktoberfest 2022** event!
 
-A Discord bot which provides various commands to get data from public APIs. This project is using the [discord.js](https://discord.js.org/) library and public APIs from [this list](https://github.com/public-apis/public-apis).
+A Discord bot which provides various commands to get data from public APIs. This project is using the [discord.js](https://discord.js.org/) library and public APIs from [this list](https://github.com/public-apis/public-apis) or other ressources.
 
 ## :sparkles: How to contribute
 
