@@ -55,6 +55,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/stockimage`             | Get a random 1920x1080p stock image.                      | [Lorem Picsum](https://picsum.photos/)                                           |
 | `/tecchy`                 | Shows a random tech-savvy phrase.                         | [TechyAPI](https://techy-api.vercel.app/api/json)                                |
 | `/affirmation`            | Shows a random affirmation quote.                         | [Affirmation Dev API](https://www.affirmations.dev/)                             |
+| `/series`                 | Get any tv/web series information                         | [CatchTheShow](https://catchtheshow.herokuapp.com/api/documentation)             |
 
 ## :wrench: Installation
 
