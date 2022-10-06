@@ -1,11 +1,12 @@
 # StatsBot - A Discord Bot to gather data from public APIs
 
 [![CodeQL](https://github.com/thieleju/statsbot/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/thieleju/statsbot/actions/workflows/codeql-analysis.yml)
+[![Prettier Check](https://github.com/thieleju/statsbot/actions/workflows/prettier-check.yml/badge.svg)](https://github.com/thieleju/statsbot/actions/workflows/prettier-check.yml)
 
 > **Note** <br>
 > This project does participate in the **Hacktoberfest 2022** event!
 
-A Discord bot which provides various commands to get data from public APIs. This project is using the [discord.js](https://discord.js.org/) library and public APIs from [this list](https://github.com/public-apis/public-apis).
+A Discord bot which provides various commands to get data from public APIs. This project is using the [discord.js](https://discord.js.org/) library and public APIs from [this list](https://github.com/public-apis/public-apis) or other ressources.
 
 ## :sparkles: How to contribute
 
@@ -56,6 +57,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/stockimage`             | Get a random 1920x1080p stock image.                      | [Lorem Picsum](https://picsum.photos/)                                           |
 | `/tecchy`                 | Shows a random tech-savvy phrase.                         | [TechyAPI](https://techy-api.vercel.app/api/json)                                |
 | `/affirmation`            | Shows a random affirmation quote.                         | [Affirmation Dev API](https://www.affirmations.dev/)                             |
+| `/series`                 | Get any tv/web series information                         | [CatchTheShow](https://catchtheshow.herokuapp.com/api/documentation)             |
 
 ## :wrench: Installation
 
