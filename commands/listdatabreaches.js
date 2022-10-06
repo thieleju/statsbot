@@ -69,7 +69,7 @@ module.exports = {
         ],
       })
     } catch (err) {
-      interaction.reply("error msg")
+      interaction.reply("The API did not respond!")
     }
   },
 }
