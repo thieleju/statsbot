@@ -1,7 +1,6 @@
 # StatsBot - A Discord Bot to gather data from public APIs
 
 [![CodeQL](https://github.com/thieleju/statsbot/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/thieleju/statsbot/actions/workflows/codeql-analysis.yml)
-[![Prettier Check](https://github.com/thieleju/statsbot/actions/workflows/prettier-check.yml/badge.svg)](https://github.com/thieleju/statsbot/actions/workflows/prettier-check.yml)
 
 > **Note** <br>
 > This project does participate in the **Hacktoberfest 2022** event!
@@ -46,6 +45,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/breakingbad`            | Shows a random Breaking Bad quote.                        | [Breaking Bad Quotes Api](https://breakingbadquotes.xyz/)                        |
 | `/dogpic`                 | Shows a random dog picture.                               | [Dog Pic API](https://random.dog/woof.json/)                                     |
 | `/catpic`                 | Shows a random cat picture.                               | [Cat Pic API](https://aws.random.cat/meow/)                                      |
+| `/duckpic`                | Shows a random duck picture.                              | [Duck Pic API](https://random-d.uk/api/quack/)                                   |
 | `/joke`                   | Give you a random joke.                                   | [Joke API](https://sv443.net/jokeapi/v2/)                                        |
 | `/chuck`                  | Shows a random joke about Chuck Norris                    | [Chuck Norris API](https://api.chucknorris.io/jokes/random)                      |
 | `/animequote`             | Shows a random anime quote.                               | [anime-chan](https://animechan.vercel.app/)                                      |
@@ -58,6 +58,10 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/tecchy`                 | Shows a random tech-savvy phrase.                         | [TechyAPI](https://techy-api.vercel.app/api/json)                                |
 | `/affirmation`            | Shows a random affirmation quote.                         | [Affirmation Dev API](https://www.affirmations.dev/)                             |
 | `/series`                 | Get any tv/web series information                         | [CatchTheShow](https://catchtheshow.herokuapp.com/api/documentation)             |
+| `/meme`                   | Send Random Memes.                                        | [Reddit Random Memes Api)(https://reddit-meme-api.herokuapp.com)                 |
+| `/list-data-breaches`     | Lists data breaches using the haveibeenpwned.com API      | [haveibeenpwned.com](https://haveibeenpwned.com/api)                             |
+| `/onthisday`              | Shows a random history event happended on this date.      | [ZenQuotes](https://today.zenquotes.io/api/)                                     |
+| `/fruit`                  | Get interesting information about fruit                   | [Fruityvice](https://www.fruityvice.com/)                                        |
 
 ## :wrench: Installation
 
