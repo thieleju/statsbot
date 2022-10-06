@@ -57,6 +57,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/tecchy`                 | Shows a random tech-savvy phrase.                         | [TechyAPI](https://techy-api.vercel.app/api/json)                                |
 | `/affirmation`            | Shows a random affirmation quote.                         | [Affirmation Dev API](https://www.affirmations.dev/)                             |
 | `/series`                 | Get any tv/web series information                         | [CatchTheShow](https://catchtheshow.herokuapp.com/api/documentation)             |
+|`/list-data-breaches` | Lists data breaches using the haveibeenpwned.com API | [haveibeenpwned.com](https://haveibeenpwned.com/api) |
 
 ## :wrench: Installation
 
