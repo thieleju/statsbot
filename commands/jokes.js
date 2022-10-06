@@ -6,14 +6,12 @@ module.exports = {
     .setName("joke")
     .setDescription("Get a random joke"),
   async execute(interaction) {
-    console.log("test")
     await axios({
       method: "get",
       url: "https://v2.jokeapi.dev/joke/Any",
       responseType: "json",
     })
       .then((res) => {
-        console.log(res.data)
         if (res.data.type == "single") {
           interaction.reply(res.data.joke)
         } else {
