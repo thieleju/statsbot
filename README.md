@@ -1,7 +1,6 @@
 # StatsBot - A Discord Bot to gather data from public APIs
 
 [![CodeQL](https://github.com/thieleju/statsbot/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/thieleju/statsbot/actions/workflows/codeql-analysis.yml)
-[![Prettier Check](https://github.com/thieleju/statsbot/actions/workflows/prettier-check.yml/badge.svg)](https://github.com/thieleju/statsbot/actions/workflows/prettier-check.yml)
 
 > **Note** <br>
 > This project does participate in the **Hacktoberfest 2022** event!
@@ -58,6 +57,9 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/tecchy`                 | Shows a random tech-savvy phrase.                         | [TechyAPI](https://techy-api.vercel.app/api/json)                                |
 | `/affirmation`            | Shows a random affirmation quote.                         | [Affirmation Dev API](https://www.affirmations.dev/)                             |
 | `/series`                 | Get any tv/web series information                         | [CatchTheShow](https://catchtheshow.herokuapp.com/api/documentation)             |
+| `/meme`                   | Send Random Memes.                                        | [Reddit Random Memes Api)(htts://reddit-meme-api.herokuapp.com)                  |
+| `/list-data-breaches`     | Lists data breaches using the haveibeenpwned.com API      | [haveibeenpwned.com](https://haveibeenpwned.com/api)                             |
+| `/onthisday`              | Shows a random history event happended on this date.      | [ZenQuotes](https://today.zenquotes.io/api/)                                     |
 
 ## :wrench: Installation
 
