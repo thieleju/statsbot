@@ -1,4 +1,6 @@
+const { SlashCommandBuilder } = require("discord.js")
 const axios = require("axios").default
+
 module.exports = {
     data: new SlashCommandBuilder()
       .setName("duckpic")
