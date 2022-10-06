@@ -50,6 +50,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/chuck`                  | Shows a random joke about Chuck Norris                    | [Chuck Norris API](https://api.chucknorris.io/jokes/random)                      |
 | `/animequote`             | Shows a random anime quote.                               | [anime-chan](https://animechan.vercel.app/)                                      |
 | `/bored`                  | Get something to do if you are bored.                     | [Bored API](http://www.boredapi.com/api/activity/)                               |
+| `/kanye`                  | Shows a random quote by Kanye West.                       | [Kanye Rest API](https://api.kanye.rest/)                               |
 | `/websiteicon`            | Shows the favicon of the requested sit.                   | [Icon Horse API](https://icon.horse/)                                            |
 | `/guessage`               | Guess the age of a specific or random name.               | [Agify API](https://agify.io/), [Random Data API](https://random-data-api.com/)  |
 | `/npm`                    | Query the NPM registry for npm package details.           | [NPM Registry](https://github.com/npm/registry/blob/master/docs/REGISTRY-API.md) |
