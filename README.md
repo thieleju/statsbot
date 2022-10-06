@@ -45,6 +45,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/breakingbad`            | Shows a random Breaking Bad quote.                        | [Breaking Bad Quotes Api](https://breakingbadquotes.xyz/)                        |
 | `/dogpic`                 | Shows a random dog picture.                               | [Dog Pic API](https://random.dog/woof.json/)                                     |
 | `/catpic`                 | Shows a random cat picture.                               | [Cat Pic API](https://aws.random.cat/meow/)                                      |
+| `/duckpic`                 | Shows a random duck picture.                               | [Duck Pic API](https://random-d.uk/api/quack/)                                      |
 | `/joke`                   | Give you a random joke.                                   | [Joke API](https://sv443.net/jokeapi/v2/)                                        |
 | `/chuck`                  | Shows a random joke about Chuck Norris                    | [Chuck Norris API](https://api.chucknorris.io/jokes/random)                      |
 | `/animequote`             | Shows a random anime quote.                               | [anime-chan](https://animechan.vercel.app/)                                      |
