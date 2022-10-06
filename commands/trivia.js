@@ -70,10 +70,7 @@ module.exports = {
           )
         })
     } catch (error) {
-      console.log(
-        `[API] ${url} did not respond to the  or there was an error!`,
-        error
-      )
+      interaction.reply("The Trivia API did not respond!")
     }
   },
 }
