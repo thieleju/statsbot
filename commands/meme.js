@@ -4,7 +4,7 @@ const axios = require("axios").default
 module.exports = {
   data: new SlashCommandBuilder()
     .setName("meme")
-    .setDescription("send random memes"),
+    .setDescription("Shows random memes from r/memes"),
   async execute(interaction) {
     axios({
       method: "GET",
@@ -28,13 +28,11 @@ module.exports = {
         })
 
         interaction.reply({ embeds: [embed] }).catch((err) => {
-          interaction.reply("Failed to run meme command!")
-          console.error(err)
+          interaction.reply("Failed to reply with embed!")
         })
       })
       .catch((err) => {
-        interaction.reply("Failed to run meme command!")
-        console.error(err)
+        interaction.reply("API failed to respond!")
       })
   },
 }
