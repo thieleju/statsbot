@@ -19,7 +19,14 @@ module.exports = {
         if (response.data && response.data.data && response.data.data.Events) {
           let data = response.data.data.Events
           let idx = Math.floor(Math.random() * data.length)
-          interaction.reply(data[idx].text)
+          let text = data[idx].text
+          text = text
+            .replace("&#8211;", "-")
+            .replace("&#39;", "'")
+            .replace("&#91;", "[")
+            .replace("&#93;", "]")
+            .replace("&#160;", " ")
+          interaction.reply(text)
         } else {
           interaction.reply("The ZenQuotes API has zero entries")
         }
