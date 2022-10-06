@@ -57,7 +57,8 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/tecchy`                 | Shows a random tech-savvy phrase.                         | [TechyAPI](https://techy-api.vercel.app/api/json)                                |
 | `/affirmation`            | Shows a random affirmation quote.                         | [Affirmation Dev API](https://www.affirmations.dev/)                             |
 | `/series`                 | Get any tv/web series information                         | [CatchTheShow](https://catchtheshow.herokuapp.com/api/documentation)             |
-| `/fruit`                 | Get interesting information about fruit                         | [Fruityvice](https://www.fruityvice.com/)             |
+| `/fruit`                  | Get interesting information about fruit                   | [Fruityvice](https://www.fruityvice.com/)                                        |
+| `/meme`                   | Send Random Memes.                                        | [Reddit Random Memes Api)(htts://reddit-meme-api.herokuapp.com)                  |
 
 ## :wrench: Installation
 
