@@ -37,7 +37,7 @@ body:
       label: Implementation Details
       value: |
         - Add a new javascript file in the `commands` folder
-        - Use [axios](https://axios-http.com/docs/intro) fetch the data from your public API
+        - Use [axios](https://axios-http.com/docs/intro) to fetch the data from your public API
         - Format the data in a readable way and send it to the user
         - Use the [discord.js](https://discordjs.guide/interactions/slash-commands.html) docs to get started
     validations:
