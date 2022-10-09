@@ -62,6 +62,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/list-data-breaches`     | Lists data breaches using the haveibeenpwned.com API      | [haveibeenpwned.com](https://haveibeenpwned.com/api)                             |
 | `/onthisday`              | Shows a random history event happended on this date.      | [ZenQuotes](https://today.zenquotes.io/api/)                                     |
 | `/fruit`                  | Get interesting information about fruit                   | [Fruityvice](https://www.fruityvice.com/)                                        |
+| `/choose`                 | Randomly select any item from your given list             |                                                                                  |
 
 ## :wrench: Installation
 
