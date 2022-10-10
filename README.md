@@ -63,6 +63,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/onthisday`              | Shows a random history event happended on this date.      | [ZenQuotes](https://today.zenquotes.io/api/)                                     |
 | `/fruit`                  | Get interesting information about fruit                   | [Fruityvice](https://www.fruityvice.com/)                                        |
 | `/randomcolor`            | Shows a random color with HEX and RGB format              | [xColors API](https://x-colors.herokuapp.com/), [Single Color Image API](https://singlecolorimage.com/api.html) |
+| `/serverip`               | Display server IP and location                            | [MyIP API](https://www.myip.com/api-docs/)                                       |
 
 ## :wrench: Installation
 
