@@ -10,7 +10,7 @@ A Discord bot which provides various commands to get data from public APIs. This
 ## :sparkles: How to contribute
 
 > **Warning** <br>
-> Only **one** issue/pull request per person will be accepted. If you want to contribute more, please look for other repositories [here](https://github.com/topics/hacktoberfest-2022?o=desc&s=updated) and keep contributing ❤️
+> For the duration of **Hacktoberfest 2022**, only **one** issue/pull request per person will be accepted. If you want to contribute more, please look for other repositories [here](https://github.com/topics/hacktoberfest-2022?o=desc&s=updated) and keep contributing ❤️
 
 - Navigate to an open issue and ask to be assigned to it (or create one yourself)
 - After you are assigned, [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) the repository and create a new branch
@@ -50,7 +50,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/chuck`                  | Shows a random joke about Chuck Norris                    | [Chuck Norris API](https://api.chucknorris.io/jokes/random)                      |
 | `/animequote`             | Shows a random anime quote.                               | [anime-chan](https://animechan.vercel.app/)                                      |
 | `/bored`                  | Get something to do if you are bored.                     | [Bored API](http://www.boredapi.com/api/activity/)                               |
-| `/kanye`                  | Shows a random quote by Kanye West.                       | [Kanye Rest API](https://api.kanye.rest/)                               |
+| `/kanye`                  | Shows a random quote by Kanye West.                       | [Kanye Rest API](https://api.kanye.rest/)                                        |
 | `/websiteicon`            | Shows the favicon of the requested sit.                   | [Icon Horse API](https://icon.horse/)                                            |
 | `/guessage`               | Guess the age of a specific or random name.               | [Agify API](https://agify.io/), [Random Data API](https://random-data-api.com/)  |
 | `/npm`                    | Query the NPM registry for npm package details.           | [NPM Registry](https://github.com/npm/registry/blob/master/docs/REGISTRY-API.md) |
