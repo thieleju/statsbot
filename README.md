@@ -64,12 +64,13 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/fruit`                  | Get interesting information about fruit                   | [Fruityvice](https://www.fruityvice.com/)                                        |
 | `/randomcolor`            | Shows a random color with HEX and RGB format              | [xColors API](https://x-colors.herokuapp.com/), [Single Color Image API](https://singlecolorimage.com/api.html) |
 | `/serverip`               | Display server IP and location                            | [MyIP API](https://www.myip.com/api-docs/)                                       |
+| `/country`                | Display countries information                             | [Country API[Germany]](https://restcountries.com/v3.1/name/germany)                                       |
 
 ## :wrench: Installation
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/en/download/) (v16.6.0 or higher)
+- [Node.js](https://nodejs.org/en/download/) (v18.9.0 or higher)
 - Discord Account
 
 ### Project Setup
