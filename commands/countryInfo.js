@@ -27,7 +27,9 @@ module.exports = {
         await interaction.editReply(data)
       })
       .catch(async () => {
-        await interaction.editReply("Country could not be found or API did not respond!")
+        await interaction.editReply(
+          "Country could not be found or API did not respond!"
+        )
       })
   },
 }
