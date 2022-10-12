@@ -80,9 +80,6 @@ Conversations between moderators (when they are more serious than discussing
 simple warnings) will occur in private repositories or through email, to ensure
 both anonymity for reporters and the safety of the moderators.
 
-For more information on how to report violations and how the code of conduct is
-enforced, see our [moderation policy][moderation].
-
 ## Attribution
 
 This code of conduct is adapted from the [Contributor Covenant][homepage],
@@ -92,5 +89,3 @@ For answers to common questions about this code of conduct, see
 <https://www.contributor-covenant.org/faq>
 
 [homepage]: https://www.contributor-covenant.org
-
-[moderation]: https://github.com/unifiedjs/collective/blob/HEAD/moderation.md

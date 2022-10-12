@@ -10,7 +10,7 @@ A Discord bot which provides various commands to get data from public APIs. This
 ## :sparkles: How to contribute
 
 > **Warning** <br>
-> Only **one** issue/pull request per person will be accepted. If you want to contribute more, please look for other repositories [here](https://github.com/topics/hacktoberfest-2022?o=desc&s=updated) and keep contributing ❤️
+> For the duration of **Hacktoberfest 2022**, only **one** issue/pull request per person will be accepted. If you want to contribute more, please look for other repositories [here](https://github.com/topics/hacktoberfest-2022?o=desc&s=updated) and keep contributing ❤️
 
 - Navigate to an open issue and ask to be assigned to it (or create one yourself)
 - After you are assigned, [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) the repository and create a new branch
@@ -62,6 +62,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/list-data-breaches`     | Lists data breaches using the haveibeenpwned.com API      | [haveibeenpwned.com](https://haveibeenpwned.com/api)                                        |
 | `/onthisday`              | Shows a random history event happended on this date.      | [ZenQuotes](https://today.zenquotes.io/api/)                                                |
 | `/fruit`                  | Get interesting information about fruit                   | [Fruityvice](https://www.fruityvice.com/)                                                   |
+| `/serverip`               | Display server IP and location                            | [MyIP API](https://www.myip.com/api-docs/)                                                  |
 | `/guessnationality`       | Guess the country of a specific or random name.           | [Nationalize API](https://nationalize.io/), [Random Data API](https://random-data-api.com/) |
 
 ## :wrench: Installation
