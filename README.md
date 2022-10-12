@@ -70,7 +70,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/en/download/) (v18.9.0 or higher)
+- [Node.js](https://nodejs.org/en/download/) (v16.14.0 or higher)
 - Discord Account
 
 ### Project Setup
