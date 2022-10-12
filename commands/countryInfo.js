@@ -23,7 +23,7 @@ module.exports = {
     })
       .then(async (res) => {
         const resData = res.data[0]
-        const data = `OfficialName: ${resData?.name?.official}\nGoogleMapsLocation: ${resData?.maps?.googleMaps}\nPopulation: ${resData?.population}\$ \nCapital: ${resData?.capital[0]} \nRegion:  ${resData?.region}\nArea: ${resData?.area}`
+        const data = `OfficialName: ${resData?.name?.official}\nGoogleMapsLocation: ${resData?.maps?.googleMaps}\nPopulation: ${resData?.population} \nCapital: ${resData?.capital[0]} \nRegion:  ${resData?.region}\nArea: ${resData?.area}`
         await interaction.editReply(data)
       })
       .catch(async () => {
