@@ -4,7 +4,7 @@ const axios = require("axios").default
 module.exports = {
   data: new SlashCommandBuilder()
     .setName("guessnationality")
-    .setDescription("Guess the nationality of a random name.")
+    .setDescription("Guess the nationality of a specific name or fetch a random name and its nationality.")
     .addStringOption((option) =>
       option
         .setName("name")
