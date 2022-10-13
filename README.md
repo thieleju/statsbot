@@ -65,9 +65,10 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/serverip`               | Display server IP and location                            | [MyIP API](https://www.myip.com/api-docs/)                                                  |
 | `/guessnationality`       | Guess the country of a specific or random name.           | [Nationalize API](https://nationalize.io/), [Random Data API](https://random-data-api.com/) |
 | `/countryinfo`            | Display information about a specific country.             | [REST Countries](https://restcountries com/)                                                |
-
-
-| `/yesno`                  | Get an answere to any question                            | [yesno.wtf](https://yesno.wtf/api)                                                       |   
+| `/countryinfo`            | Display information about a specific country.             | [REST Countries](https://restcountries.com/)                                                |
+| `/advice`                 | Shows a random advice.                                    | [Advice Slip API](https://api.adviceslip.com/)                                              |
+| `/yesno`                  | Get an answere to any question.                           | [yesno.wtf](https://yesno.wtf/api)                                                          | 
+  
 ## :wrench: Installation
 
 ### Prerequisites
