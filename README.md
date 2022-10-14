@@ -71,6 +71,8 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/yesno`                  | Get an answer to any question.                            | [yesno.wtf](https://yesno.wtf/api)                                                          | 
 | `/xkcd`                   | Shows a random xkcd comic.                                | [xkcd Swagger REST API](https://www.programmableweb.com/api/xkcd-swagger-rest-api-v2)       |
 | `/roboavatar`             | Create a Robotor Avatar by entering a string.             | [Robo Avatar API](https://robohash.org/)                                                    |
+| `/inspiration`            | Get Inspiration.                                          | [goprogram API](https://api.goprogram.ai/inspiration/)                                      |
+
 
 ## :wrench: Installation
 
