@@ -8,11 +8,11 @@ module.exports = {
   async execute(interaction) {
     await axios({
       method: "get",
-      url: "https://api.goprogram.ai/inspiration",
+      url: "https://zenquotes.io/api/random",
       responseType: "json",
     })
       .then((response) => {
-        interaction.reply(`> *${response.data.quote}*\n${response.data.author}`)
+        interaction.reply(`> *${response.data[0].q}*\n- ${response.data[0].a}`)
       })
       .catch((error) => {
         interaction.reply("The API didn't respond!")
