@@ -4,18 +4,18 @@ const axios = require("axios").default
 module.exports = {
   data: new SlashCommandBuilder()
     .setName("motivation")
-    .setDescription("Get a random motivation quote."),
+    .setDescription("Get a random motivational quote."),
   async execute(interaction) {
     await axios({
       method: "get",
-      url: "https://nodejs-quoteapp.herokuapp.com/quote",
+      url: "https://api.goprogram.ai/inspiration",
       responseType: "json",
     })
       .then((response) => {
-        interaction.reply("```" + response.data.quote + "```")
+        interaction.reply(`> *${response.data.quote}*\n${response.data.author}`)
       })
       .catch((error) => {
-        interaction.reply("The Motivation API did not respond!")
+        interaction.reply("The API didn't respond!")
       })
   },
 }
