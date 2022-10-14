@@ -68,8 +68,8 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/countryinfo`            | Display information about a specific country.             | [REST Countries](https://restcountries.com/)                                                |
 | `/advice`                 | Shows a random advice.                                    | [Advice Slip API](https://api.adviceslip.com/)                                              |
 | `/shiba`                  | Show shiba inu pic                                        | [shibe.online](https://shibe.online/)                                                       |
-| `/yesno`                  | Get an answere to any question.                           | [yesno.wtf](https://yesno.wtf/api)                                                          | 
-
+| `/yesno`                  | Get an answere to any question.                           | [yesno.wtf](https://yesno.wtfapi)                                                           |
+| `/inspiration`            | Get Inspiration.                                          | [goprogram API](https://api.goprogram.aiinspiration/)                                       |
 ## :wrench: Installation
 
 ### Prerequisites
