@@ -14,22 +14,31 @@ module.exports = {
       responseType: "json",
     })
       .then((response) => {
-        interaction.reply(
+        const reply_String =
           "**> " +
-            response.data[0].death +
-            "**" +
-            response.data[0].cause +
-            response.data[0].responsible +
-            response.data[0].last_words +
-            response.data[0].season +
-            response.data[0].episode +
-            response.data[0].occupation +
-            response.data[0].img +
-            response.data[0].nickname +
-            response.data[0].appearance
-        )
+          response.data.death +
+          "**" +
+          "\n**Cause of death:** \n" +
+          response.data.cause +
+          "\n" +
+          "\n**Responsible:** \n" +
+          response.data.responsible +
+          "\n" +
+          "\n**Last words:** \n" +
+          response.data.last_words +
+          "\n" +
+          "\nSeason: " +
+          response.data.season +
+          " in Episode: " +
+          response.data.episode +
+          ", Occupation: " +
+          response.data.occupation +
+          "\n" +
+          response.data.img
+        interaction.reply(reply_String)
       })
       .catch((error) => {
+        console.log(error)
         interaction.reply("The Breaking Bad Death API did not respond!")
       })
   },
