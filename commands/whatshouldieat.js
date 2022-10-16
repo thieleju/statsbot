@@ -30,7 +30,14 @@ module.exports = {
           })
           .addFields({
             name: "Instructions",
-            value: recipe?.strInstructions,
+            value:
+              recipe?.strInstructions.substring(
+                0,
+                1024 - (" [more...](" + recipe?.strSource + ")").length
+              ) +
+              " [more...](" +
+              recipe?.strSource +
+              ")",
           })
         interaction.reply({ embeds: [message] })
       })
