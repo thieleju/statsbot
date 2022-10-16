@@ -32,7 +32,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/userinfo`               | Shows information about the user                          |                                                                                             |
 | `/excuse`                 | Sends a random excuse                                     | [Excuser](https://excuser.herokuapp.com/)                                                   |
 | `/show-chess-leaderboard` | Shows information about the current chess.com leaderboard | [chess.com](https://www.chess.com/news/view/published-data-api)                             |
-| `/trivia`                 | Shows a random question, react with ✅ or ❌.               | [opentdb.com](https://opentdb.com/api.php?amount=1&type=boolean)                            |
+| `/trivia`                 | Shows a random question, react with ✅ or ❌.             | [opentdb.com](https://opentdb.com/api.php?amount=1&type=boolean)                            |
 | `/numberfact`             | Shows a random number fact                                | [numbersapi.com](http://numbersapi.com/)                                                    |
 | `/catfact`                | Shows a random fact about cats.                           | [meowfacts](https://github.com/wh-iterabb-it/meowfacts)                                     |
 | `/dogfact`                | Shows a random fact about dogs.                           | [Dog API](http://dog-api.kinduff.com/api/facts)                                             |
@@ -65,14 +65,14 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/serverip`               | Display server IP and location                            | [MyIP API](https://www.myip.com/api-docs/)                                                  |
 | `/guessnationality`       | Guess the country of a specific or random name.           | [Nationalize API](https://nationalize.io/), [Random Data API](https://random-data-api.com/) |
 | `/countryinfo`            | Display information about a specific country.             | [REST Countries](https://restcountries.com/)                                                |
-| `/breakingbaddeath`       | Shows a random death reason of a Breaking Bad character   | [Breaking Bad Death Api](https://breakingbadapi.com/api/random-death)                       |                                          
+| `/breakingbaddeath`       | Shows a random death reason of a Breaking Bad character   | [Breaking Bad Death Api](https://breakingbadapi.com/api/random-death)                       |
 | `/advice`                 | Shows a random advice.                                    | [Advice Slip API](https://api.adviceslip.com/)                                              |
 | `/shiba`                  | Show shiba inu picture.                                   | [shibe.online](https://shibe.online/)                                                       |
-| `/yesno`                  | Get an answer to any question.                            | [yesno.wtf](https://yesno.wtf/api)                                                          | 
+| `/yesno`                  | Get an answer to any question.                            | [yesno.wtf](https://yesno.wtf/api)                                                          |
 | `/xkcd`                   | Shows a random xkcd comic.                                | [xkcd Swagger REST API](https://www.programmableweb.com/api/xkcd-swagger-rest-api-v2)       |
 | `/roboavatar`             | Create a Robotor Avatar by entering a string.             | [Robo Avatar API](https://robohash.org/)                                                    |
 | `/inspiration`            | Get Inspiration.                                          | [goprogram API](https://api.goprogram.ai/inspiration/)                                      |
-
+| `/whatshouldieat`         | Get a random recipe from themealdb                        | [themealdb API](https://www.themealdb.com/api.php)                                          |
 
 ## :wrench: Installation
 
@@ -94,9 +94,12 @@ Example `.env` file content:
 
 ```html
 DC_BOT_TOKEN=<your bot token>
-DC_BOT_CLIENT_ID=<your application client id>
-DC_BOT_CLIENT_SECRET=<your application client secret>
-DC_BOT_PERMISSIONS=274878131264
+  DC_BOT_CLIENT_ID=<your application client id>
+    DC_BOT_CLIENT_SECRET=<your application client secret>
+      DC_BOT_PERMISSIONS=274878131264</your
+    ></your
+  ></your
+>
 ```
 
 ## :rocket: How to run the bot
