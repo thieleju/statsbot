@@ -72,7 +72,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/xkcd`                   | Shows a random xkcd comic.                                | [xkcd Swagger REST API](https://www.programmableweb.com/api/xkcd-swagger-rest-api-v2)       |
 | `/roboavatar`             | Create a Robotor Avatar by entering a string.             | [Robo Avatar API](https://robohash.org/)                                                    |
 | `/inspiration`            | Get Inspiration.                                          | [goprogram API](https://api.goprogram.ai/inspiration/)                                      |
-
+| `/earthevent`            | Return a natural event that has occurred in the last 30 days.                                          | [EONET API](https://eonet.gsfc.nasa.gov)                                      |
 
 ## :wrench: Installation
 
