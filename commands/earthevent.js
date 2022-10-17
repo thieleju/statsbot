@@ -13,7 +13,8 @@ module.exports = {
       url: "https://eonet.gsfc.nasa.gov/api/v3/events?limit=60&days=30",
       responseType: "json",
     })
-      .then((response) => {
+      .then(async (response) => {
+        await interaction.deferReply({ ephemeral: false })
         // get number of events in the past 30 days, limited to 60
         let totalEvents = response.data.events.length
         // choose random event from eonet API response
@@ -70,8 +71,8 @@ module.exports = {
         // work around: parseInt date before returning month
         let month = months[parseInt(date.slice(5, 7))]
 
-        interaction.reply(
-            cat +
+        interaction.editReply(
+          cat +
             ": " +
             event.title +
             " - " +
@@ -87,7 +88,7 @@ module.exports = {
         )
       })
       .catch(() => {
-        interaction.reply(
+        interaction.editReply(
           "The Earth Observatory Natural Event Tracker API did not respond."
         )
       })
