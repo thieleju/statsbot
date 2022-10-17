@@ -3,7 +3,13 @@ const path = require("node:path")
 require("dotenv").config()
 
 // Require the necessary discord.js classes
-const { Client, Collection, GatewayIntentBits } = require("discord.js")
+const {
+  Client,
+  Collection,
+  GatewayIntentBits,
+  ActivityType,
+} = require("discord.js")
+
 const { REST } = require("@discordjs/rest")
 const { Routes } = require("discord.js")
 
@@ -55,6 +61,11 @@ rest
 // When the client is ready, run this code (only once)
 client.once("ready", () => {
   console.log("[SYSTEM] Bot ready and online!")
+  // set Bot status and activity
+  client.user.setPresence({
+    activities: [{ name: `with APIs`, type: ActivityType.Playing }],
+    status: "online",
+  })
 })
 
 // React to chat interactions
