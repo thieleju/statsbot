@@ -72,8 +72,9 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/xkcd`                   | Shows a random xkcd comic.                                | [xkcd Swagger REST API](https://www.programmableweb.com/api/xkcd-swagger-rest-api-v2)       |
 | `/roboavatar`             | Create a Robotor Avatar by entering a string.             | [Robo Avatar API](https://robohash.org/)                                                    |
 | `/inspiration`            | Get Inspiration.                                          | [goprogram API](https://api.goprogram.ai/inspiration/)                                      |
-| `/whatshouldieat`         | Get a random recipe from themealdb                        | [themealdb API](https://www.themealdb.com/api.php)                                          |
-| `/ayah`                   | Get a verse of Quran                                      | [AlQuran Cloud](https://alquran.cloud/api)                                                  |
+| `/whatshouldieat`         | Get a random recipe from themealdb.                       | [themealdb API](https://www.themealdb.com/api.php)                                          |
+| `/ayah`                   | Get a verse of Quran.                                     | [AlQuran Cloud](https://alquran.cloud/api)                                                  |
+| `/encryption`             | Encrypt/decrypt a message using a key.                    | [Classify API](https://classify-web.herokuapp.com/#/api)                                    |
 
 ## :wrench: Installation
 
