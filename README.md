@@ -73,6 +73,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/roboavatar`             | Create a Robotor Avatar by entering a string.             | [Robo Avatar API](https://robohash.org/)                                                    |
 | `/inspiration`            | Get Inspiration.                                          | [goprogram API](https://api.goprogram.ai/inspiration/)                                      |
 | `/whatshouldieat`         | Get a random recipe from themealdb                        | [themealdb API](https://www.themealdb.com/api.php)                                          |
+| `/ayah`                   | Get a verse of Quran                                      | [AlQuran Cloud](https://alquran.cloud/api)                                                  |
 
 ## :wrench: Installation
 
