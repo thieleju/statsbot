@@ -9,6 +9,7 @@ module.exports = {
       return option
         .setName("sign")
         .setDescription("All Signs")
+        .setRequired(true)
         .addChoices(
           { name: "aries", value: "aries" },
           { name: "taurus", value: "taurus" },
@@ -28,6 +29,7 @@ module.exports = {
       return option
         .setName("day")
         .setDescription("Show for")
+        .setRequired(true)
         .addChoices(
           { name: "Today", value: "today" },
           { name: "Tomorrow", value: "tomorrow" },
