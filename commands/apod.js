@@ -25,12 +25,11 @@ module.exports = {
         await axios ({
             method: "get",
             url: (`${date}`.length == 10)
-                ? `https://api.nasa.gov/planetary/apod?api_key=${process.env.DC_NASA_API}&date=${date}`
-                : `https://api.nasa.gov/planetary/apod?api_key=${process.env.DC_NASA_API}`,
+                ? `https://api.nasa.gov/planetary/apod?api_key=vUhDy288PdcxolqMhrrgKctqsw4JDa72Y0yDnOgR&date=${date}`
+                : `https://api.nasa.gov/planetary/apod?api_key=vUhDy288PdcxolqMhrrgKctqsw4JDa72Y0yDnOgR`,
             responseType: "json",
         })
             .then((res) => {
-                console.log(res.data.explanation);
                 let explanation = `${(res.data.explanation) ? res.data.explanation : "No explanation provided."}`;
                 explanation = explanation.slice(0, explanation.indexOf(".", 256)+1);
                 explanation = desc ? explanation : "None";
