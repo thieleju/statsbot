@@ -60,36 +60,29 @@ module.exports = {
           .setFooter({
             text:
               `${date}`.length == 10
-                ? "‎ "
+                ? " "
                 : "If you optioned for a custom date, make sure you enter it per format.",
           })
         interaction.reply({ embeds: [embed] })
       })
       .catch((err) => {
-        const embed = new EmbedBuilder()
-          .setTitle(`Error`)
-          .addFields(
-            {
-              name: "Details",
-              value:
-                "The website did not respond. Please check your parameters!",
-            },
-            {
-              name: "Additional info",
-              value:
-                typeof err == JSON
-                  ? `${
-                      err.response.data.code
-                        ? err.response.data.code
-                        : "No code"
-                    }`
-                  : `${
-                      err.response.data.msg
-                        ? err.response.data.msg
-                        : "No message"
-                    }`,
-            }
-          )
+        const embed = new EmbedBuilder().setTitle(`Error`).addFields(
+          {
+            name: "Details",
+            value: "The website did not respond. Please check your parameters!",
+          },
+          {
+            name: "Additional info",
+            value:
+              typeof err == JSON
+                ? `${
+                    err.response.data.code ? err.response.data.code : "No code"
+                  }`
+                : `${
+                    err.response.data.msg ? err.response.data.msg : "No message"
+                  }`,
+          }
+        )
         interaction.reply({ embeds: [embed] })
       })
   },
