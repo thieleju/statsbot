@@ -35,8 +35,6 @@ module.exports = {
           await interaction.editReply("No results found!")
         }
 
-        console.log("res: ", myres.definition)
-
         const data = `Word: ${myres.word}\nDefinition: ${myres.definition}\nExample: ${myres.example}\nRating: ${myres.thumbs_up} thumbs up. ${myres.thumbs_down} thumbs down.`
         await interaction.editReply(data)
       })
