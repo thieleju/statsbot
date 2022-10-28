@@ -79,7 +79,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/earthevent`             | Return a natural event that occurred in the last 30 days. | [EONET API](https://eonet.gsfc.nasa.gov)                                                    |
 | `/apod`                   | Return an astronomy picture of the day.                   | [NASA APOD API](https://apod.nasa.gov/apod/astropix.html)                                   |
 | `/truefact`               | Get a true fact.                                          | [Random Useless Facts API](https://uselessfacts.jsph.pl/)                                   |
-
+| `/createloripsum`         | Shows random lorem ipsum text.                            | [Loripsum](https://loripsum.net/)                                                           |
 
 ## :wrench: Installation
 
