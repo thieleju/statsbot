@@ -1,5 +1,6 @@
 const { SlashCommandBuilder } = require("discord.js")
 const axios = require("axios").default
+const { htmlToText } = require("html-to-text")
 
 module.exports = {
   data: new SlashCommandBuilder()
@@ -20,19 +21,16 @@ module.exports = {
         .setRequired(true)
     ),
   async execute(interaction) {
-    let textfieldlength = interaction.options.getString("textfieldlength")
+    const textfieldlength = interaction.options.getString("textfieldlength")
 
     await axios({
       method: "get",
       url: `https://loripsum.net/api/1/${textfieldlength}`,
       responseType: "json",
     })
-      .then(async (response) => {
-        let answer = response.data
-        await interaction.reply(
-          `This is a random **${textfieldlength}** Loripsum textfield:`
-        )
-        await interaction.channel.send(`${answer}`)
+      .then((response) => {
+        const text = htmlToText(response.data, { wordwrap: null })
+        interaction.reply(text)
       })
       .catch((error) => {
         interaction.reply("Error")
