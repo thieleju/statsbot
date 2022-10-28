@@ -32,7 +32,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/userinfo`               | Shows information about the user                          |                                                                                             |
 | `/excuse`                 | Sends a random excuse                                     | [Excuser](https://excuser.herokuapp.com/)                                                   |
 | `/show-chess-leaderboard` | Shows information about the current chess.com leaderboard | [chess.com](https://www.chess.com/news/view/published-data-api)                             |
-| `/trivia`                 | Shows a random question, react with ✅ or ❌.               | [opentdb.com](https://opentdb.com/api.php?amount=1&type=boolean)                           |
+| `/trivia`                 | Shows a random question, react with ✅ or ❌.               | [opentdb.com](https://opentdb.com/api.php?amount=1&type=boolean)                            |
 | `/numberfact`             | Shows a random number fact                                | [numbersapi.com](http://numbersapi.com/)                                                    |
 | `/catfact`                | Shows a random fact about cats.                           | [meowfacts](https://github.com/wh-iterabb-it/meowfacts)                                     |
 | `/dogfact`                | Shows a random fact about dogs.                           | [Dog API](http://dog-api.kinduff.com/api/facts)                                             |
@@ -65,7 +65,21 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/serverip`               | Display server IP and location                            | [MyIP API](https://www.myip.com/api-docs/)                                                  |
 | `/guessnationality`       | Guess the country of a specific or random name.           | [Nationalize API](https://nationalize.io/), [Random Data API](https://random-data-api.com/) |
 | `/countryinfo`            | Display information about a specific country.             | [REST Countries](https://restcountries.com/)                                                |
-| `/createloripsum`         | Creates a random Loripsum textfield.                      | [Loripsum](https://loripsum.net/)                                                           |
+| `/breakingbaddeath`       | Shows a random death reason of a Breaking Bad character   | [Breaking Bad Death Api](https://breakingbadapi.com/api/random-death)                       |
+| `/advice`                 | Shows a random advice.                                    | [Advice Slip API](https://api.adviceslip.com/)                                              |
+| `/shiba`                  | Show shiba inu picture.                                   | [shibe.online](https://shibe.online/)                                                       |
+| `/yesno`                  | Get an answer to any question.                            | [yesno.wtf](https://yesno.wtf/api)                                                          |
+| `/xkcd`                   | Shows a random xkcd comic.                                | [xkcd Swagger REST API](https://www.programmableweb.com/api/xkcd-swagger-rest-api-v2)       |
+| `/roboavatar`             | Create a Robotor Avatar by entering a string.             | [Robo Avatar API](https://robohash.org/)                                                    |
+| `/inspiration`            | Get Inspiration.                                          | [goprogram API](https://api.goprogram.ai/inspiration/)                                      |
+| `/horoscope`              | Get Horscope.                                             | [Aztro Api](https://aztro.readthedocs.io/en/latest/)                                        |
+| `/whatshouldieat`         | Get a random recipe from themealdb.                       | [themealdb API](https://www.themealdb.com/api.php)                                          |
+| `/ayah`                   | Get a verse of Quran.                                     | [AlQuran Cloud](https://alquran.cloud/api)                                                  |
+| `/encryption`             | Encrypt/decrypt a message using a key.                    | [Classify API](https://classify-web.herokuapp.com/#/api)                                    |
+| `/earthevent`             | Return a natural event that occurred in the last 30 days. | [EONET API](https://eonet.gsfc.nasa.gov)                                                    |
+| `/apod`                   | Return an astronomy picture of the day.                   | [NASA APOD API](https://apod.nasa.gov/apod/astropix.html)                                   |
+| `/truefact`               | Get a true fact.                                          | [Random Useless Facts API](https://uselessfacts.jsph.pl/)                                   |
+| `/createloripsum`         | Shows random lorem ipsum text.                            | [Loripsum](https://loripsum.net/)                                                           |
 
 ## :wrench: Installation
 
