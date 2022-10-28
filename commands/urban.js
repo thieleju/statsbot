@@ -23,7 +23,6 @@ module.exports = {
       const query = new URLSearchParams({ term })
       URL = `https://api.urbandictionary.com/v0/define?${query}`
     }
-    console.log("URL: ", URL)
     await axios({
       method: "get",
       url: URL,
