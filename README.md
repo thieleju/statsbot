@@ -80,7 +80,9 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/apod`                   | Return an astronomy picture of the day.                   | [NASA APOD API](https://apod.nasa.gov/apod/astropix.html)                                   |
 | `/truefact`               | Get a true fact.                                          | [Random Useless Facts API](https://uselessfacts.jsph.pl/)                                   |
 | `/createloripsum`         | Shows random lorem ipsum text.                            | [Loripsum](https://loripsum.net/)                                                           |
-| `/urban {term}`          | Shows the definition of a term from Urban Dictionary.     | [Urban Dictionary API]("https://api.urbandictionary.com/v0/)                 |
+| `/urban`                  | Shows the definition of a term from Urban Dictionary.     | [Urban Dictionary API]("https://api.urbandictionary.com/v0/)                                |
+| `/guessgender`            | Get the gender of a name.                                 | [Genderize](https://genderize.io/)                                                          |
+
 ## :wrench: Installation
 
 ### Prerequisites
