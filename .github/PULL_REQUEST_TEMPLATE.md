@@ -4,10 +4,6 @@ Issue: #[num]
 
 - [ ] Added command to README.md commands list
 - [ ] Code is tested before submitting
-- [ ] Code is formatted with prettier (`npm run format`)
+- [ ] Code is formatted with prettier
 - [ ] Deleted all console.log() or console.error() statements
-- [ ] Correct error handling => No 'The application did not respond' errors
-
-## Details
-
-[details]
+- [ ] Correct error handling
