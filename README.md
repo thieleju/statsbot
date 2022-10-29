@@ -64,7 +64,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/fruit`                  | Get interesting information about fruit                   | [Fruityvice](https://www.fruityvice.com/)                                                   |
 | `/serverip`               | Display server IP and location                            | [MyIP API](https://www.myip.com/api-docs/)                                                  |
 | `/guessnationality`       | Guess the country of a specific or random name.           | [Nationalize API](https://nationalize.io/), [Random Data API](https://random-data-api.com/) |
-| `/countryinfo`            | Display information about a specific country.             | [REST Countries](https://restcountries.com/)                                                |
+
 | `/genderofname`           | Get the gender of a name.                                 | [Genderize](https://genderize.io/)                                                          |
 
 ## :wrench: Installation
