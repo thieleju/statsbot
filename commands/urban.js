@@ -1,4 +1,4 @@
-const { SlashCommandBuilder } = require("discord.js")
+const { SlashCommandBuilder, EmbedBuilder } = require("discord.js")
 const axios = require("axios").default
 
 module.exports = {
@@ -16,16 +16,15 @@ module.exports = {
     let term = interaction.options.getString("term")
     await interaction.deferReply({ ephemeral: false })
     let URL = ""
-    if (term == null) {
-      // Get a random term
-      URL = "https://api.urbandictionary.com/v0/random"
-    } else {
-      const query = new URLSearchParams({ term })
-      URL = `https://api.urbandictionary.com/v0/define?${query}`
+    let query = ""
+    if (term != null) {
+      query = new URLSearchParams({ term })
     }
     await axios({
       method: "get",
-      url: URL,
+      url: term
+        ? `https://api.urbandictionary.com/v0/define?${query}`
+        : "https://api.urbandictionary.com/v0/random",
       responseType: "json",
     })
       .then(async (res) => {
@@ -34,13 +33,29 @@ module.exports = {
           await interaction.editReply("No results found!")
         }
 
-        const data = `Word: ${myres.word}\nDefinition: ${myres.definition}\nExample: ${myres.example}\nRating: ${myres.thumbs_up} thumbs up. ${myres.thumbs_down} thumbs down.`
-        await interaction.editReply(data)
+        const embedTerm = new EmbedBuilder()
+          .setColor(0x0099ff)
+          .setTitle(myres.word)
+          .setDescription(`*> ${myres.definition}*`)
+          .setFields([
+            { name: "Example", value: myres.example },
+            {
+              name: "Rating",
+              value: `${myres.thumbs_up} thumbs up. ${myres.thumbs_down} thumbs down.`,
+            },
+          ])
+          .setFooter({ text: `Author: Urban Dictionary` })
+
+        interaction.editReply({ embeds: [embedTerm] })
       })
-      .catch(async () => {
-        await interaction.editReply(
-          `No results found for **${term}** or API did not respond.`
-        )
+      .catch(async (error) => {
+        if (error.response != null && error.response.status == 404) {
+          await interaction.editReply(error.response.data.error)
+        } else {
+          await interaction.editReply(
+            `No results found for **${term}** or API did not respond.`
+          )
+        }
       })
   },
 }
