@@ -45,6 +45,7 @@ module.exports = {
             },
           ])
           .setFooter({ text: `Author: Urban Dictionary` })
+          .setTimestamp()
 
         interaction.editReply({ embeds: [embedTerm] })
       })
