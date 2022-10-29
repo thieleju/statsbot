@@ -3,7 +3,7 @@ const axios = require("axios").default
 
 module.exports = {
   data: new SlashCommandBuilder()
-    .setName("genderofname")
+    .setName("guessgender")
     .setDescription("Get the gender of a name")
     .addStringOption((option) =>
       option.setName("name").setDescription("Enter a name").setRequired(true)
@@ -28,8 +28,8 @@ module.exports = {
             response.data.gender.slice(1),
         })
       })
-      .catch((error) => {
-        interaction.reply("An error happen. Try again.")
+      .catch(() => {
+        interaction.reply("The api responded with an error!")
       })
   },
 }
