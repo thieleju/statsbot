@@ -19,10 +19,12 @@ module.exports = {
       responseType: "json",
     })
       .then((response) => {
-        interaction.reply("Shortlink: gotiny.cc/" + response.data[0].code);
+        interaction.reply(
+          "Shortlink: https://gotiny.cc/" + response.data[0].code
+        )
       })
       .catch((error) => {
-        interaction.reply("The GoTiny API didn't respond.");
+        interaction.reply("The GoTiny API didn't respond.")
       })
   },
 }
