@@ -4,11 +4,11 @@ const axios = require("axios").default
 module.exports = {
   data: new SlashCommandBuilder()
     .setName("universitydomain")
-    .setDescription("Get the gender of a name")
+    .setDescription("Get the domain of a university")
     .addStringOption((option) =>
       option
         .setName("name")
-        .setDescription("Enter the name of the university")
+        .setDescription("Enter the name of the university or the city")
         .setRequired(true)
     ),
 
@@ -24,6 +24,7 @@ module.exports = {
         var temp = response.data.filter((el) =>
           el.name.toLowerCase().includes(universityName)
         )
+        console.log(temp)
         if (temp.length === 1) {
           var universityData = temp.pop()
 
@@ -39,36 +40,30 @@ module.exports = {
               universityData.domains +
               "\n" +
               "Country: " +
-              universityData.country +
-              "\n",
+              universityData.country,
           })
         } else if (temp.length > 1) {
           var universityData = ""
           for (var i = 0; i < temp.length; i++) {
             if (i < temp.length - 1) {
               universityData =
-                universityData +
-                (i + 1) +
-                ".Result: " +
-                "\n" +
-                "Name: " +
-                temp[i].name +
-                "\n" +
-                "\n"
+                universityData + (i + 1) + ". Name: " + temp[i].name + "\n"
             } else if (i === temp.length - 1) {
               universityData =
-                universityData +
-                (i + 1) +
-                ".Result: " +
-                "\n" +
-                "Name: " +
-                temp[i].name +
-                "\n" +
-                "\n"
+                universityData + (i + 1) + ". Name: " + temp[i].name + "\n"
 
-              interaction.reply(universityData.toString())
+              var errorMessage =
+                "Specify your search! Your search gived " +
+                (i + 1) +
+                " Results:"
+
+              interaction.reply(errorMessage + "\n" + "\n" + universityData)
             }
           }
+        } else {
+          var errorMessage =
+            "No result for your search. Try with searching just the city of the university!"
+          interaction.reply(errorMessage)
         }
       })
       .catch((error) => {
