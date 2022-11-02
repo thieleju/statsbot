@@ -13,61 +13,47 @@ module.exports = {
     ),
 
   async execute(interaction) {
-    var universityName = interaction.options.getString("name").toLowerCase()
+    try {
+      const universityName = interaction.options.getString("name").toLowerCase()
+      const response = await axios({
+        method: "get",
+        url: `https://raw.githubusercontent.com/Hipo/university-domains-list/master/world_universities_and_domains.json`,
+        responseType: "json",
+      })
 
-    await axios({
-      method: "get",
-      url: `https://raw.githubusercontent.com/Hipo/university-domains-list/master/world_universities_and_domains.json`,
-      responseType: "json",
-    })
-      .then((response) => {
-        var temp = response.data.filter((el) =>
-          el.name.toLowerCase().includes(universityName)
+      var filtered = response.data.filter((el) =>
+        el.name.toLowerCase().includes(universityName)
+      )
+
+      var universityData = ""
+      if (filtered.length === 0) {
+        interaction.reply(
+          "No result for your search. Try with searching just the city of the university!"
         )
-        console.log(temp)
-        if (temp.length === 1) {
-          var universityData = temp.pop()
-
-          interaction.reply({
-            content:
-              "Name: " +
-              universityData.name +
-              "\n" +
-              "Webside: " +
-              universityData.web_pages +
-              "\n" +
-              "Domain: " +
-              universityData.domains +
-              "\n" +
-              "Country: " +
-              universityData.country,
-          })
-        } else if (temp.length > 1) {
-          var universityData = ""
-          for (var i = 0; i < temp.length; i++) {
-            if (i < temp.length - 1) {
-              universityData =
-                universityData + (i + 1) + ". Name: " + temp[i].name + "\n"
-            } else if (i === temp.length - 1) {
-              universityData =
-                universityData + (i + 1) + ". Name: " + temp[i].name + "\n"
-
-              var errorMessage =
-                "Specify your search! Your search gived " +
-                (i + 1) +
-                " Results:"
-
-              interaction.reply(errorMessage + "\n" + "\n" + universityData)
-            }
-          }
-        } else {
-          var errorMessage =
-            "No result for your search. Try with searching just the city of the university!"
-          interaction.reply(errorMessage)
+      } else if (filtered.length === 1)
+        interaction.reply(
+          `Name: ${filtered.pop().name}\nDomain: ${
+            filtered.pop().domains[0]
+          }\nCountry: ${filtered.pop().country}\nWeb Page: ${
+            filtered.pop().web_pages[0]
+          }`
+        )
+      else if (filtered.length > 1) {
+        for (var i = 0; i < filtered.length; i++) {
+          // Don't add more if over 1000 chars to prevent error
+          if (universityData.length + filtered[i].name.length > 1000) break
+          else
+            universityData = `${universityData} ${i + 1}. Name: ${
+              filtered[i].name
+            }\n`
         }
-      })
-      .catch((error) => {
-        interaction.reply("An error happen. Try again.")
-      })
+
+        interaction.reply(
+          `Specify your search! ${filtered.length} results found:\n\n${universityData}`
+        )
+      }
+    } catch (error) {
+      interaction.reply("An error occured. Please try again later.")
+    }
   },
 }
