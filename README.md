@@ -85,6 +85,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/urban`                  | Shows the definition of a term from Urban Dictionary.     | [Urban Dictionary API](https://urbandictionary.com)                                         |
 | `/guessgender`            | Get the gender of a name.                                 | [Genderize](https://genderize.io/)                                                          |
 | `/shortenlink`            | Shorten the URL.                                          | [GoTiny](https://gotiny.cc/)                                                                |
+| `/locateiss`              | locate the International Space Station.                   | [open-notify](http://open-notify.org/Open-Notify-API/)                                      |
 
 ## :wrench: Installation
 
