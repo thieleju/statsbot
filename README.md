@@ -32,7 +32,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/userinfo`               | Shows information about the user                          |                                                                                             |
 | `/excuse`                 | Sends a random excuse                                     | [Excuser](https://excuser.herokuapp.com/)                                                   |
 | `/show-chess-leaderboard` | Shows information about the current chess.com leaderboard | [chess.com](https://www.chess.com/news/view/published-data-api)                             |
-| `/trivia`                 | Shows a random question, react with ✅ or ❌.               | [opentdb.com](https://opentdb.com/api.php?amount=1&type=boolean)                            |
+| `/trivia`                 | Shows a random question, react with ✅ or ❌.             | [opentdb.com](https://opentdb.com/api.php?amount=1&type=boolean)                            |
 | `/numberfact`             | Shows a random number fact                                | [numbersapi.com](http://numbersapi.com/)                                                    |
 | `/catfact`                | Shows a random fact about cats.                           | [meowfacts](https://github.com/wh-iterabb-it/meowfacts)                                     |
 | `/dogfact`                | Shows a random fact about dogs.                           | [Dog API](http://dog-api.kinduff.com/api/facts)                                             |
@@ -65,6 +65,8 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/serverip`               | Display server IP and location                            | [MyIP API](https://www.myip.com/api-docs/)                                                  |
 | `/guessnationality`       | Guess the country of a specific or random name.           | [Nationalize API](https://nationalize.io/), [Random Data API](https://random-data-api.com/) |
 | `/countryinfo`            | Display information about a specific country.             | [REST Countries](https://restcountries.com/)                                                |
+| `/university`             | Get the domain of a university.                           | [Hipo](https://github.com/Hipo/university-domains-list)                                     |
+| `/countryinfo`            | Display information about a specific country.             | [REST Countries](https://restcountries.com/)                                                |
 | `/breakingbaddeath`       | Shows a random death reason of a Breaking Bad character   | [Breaking Bad Death Api](https://breakingbadapi.com/api/random-death)                       |
 | `/advice`                 | Shows a random advice.                                    | [Advice Slip API](https://api.adviceslip.com/)                                              |
 | `/shiba`                  | Show shiba inu picture.                                   | [shibe.online](https://shibe.online/)                                                       |
@@ -80,10 +82,10 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/apod`                   | Return an astronomy picture of the day.                   | [NASA APOD API](https://apod.nasa.gov/apod/astropix.html)                                   |
 | `/truefact`               | Get a true fact.                                          | [Random Useless Facts API](https://uselessfacts.jsph.pl/)                                   |
 | `/createloripsum`         | Shows random lorem ipsum text.                            | [Loripsum](https://loripsum.net/)                                                           |
-| `/urban`                  | Shows the definition of a term from Urban Dictionary.     | [Urban Dictionary API](https://urbandictionary.com)                                |
+| `/urban`                  | Shows the definition of a term from Urban Dictionary.     | [Urban Dictionary API](https://urbandictionary.com)                                         |
 | `/guessgender`            | Get the gender of a name.                                 | [Genderize](https://genderize.io/)                                                          |
-| `/shortenlink`            | Shorten the URL.                                 | [GoTiny](https://gotiny.cc/)                                                          |
-| `/locateiss`              | locate the International Space Station.                    | [open-notify](http://open-notify.org/Open-Notify-API/)                                     |
+| `/shortenlink`            | Shorten the URL.                                          | [GoTiny](https://gotiny.cc/)                                                                |
+| `/locateiss`              | locate the International Space Station.                   | [open-notify](http://open-notify.org/Open-Notify-API/)                                      |
 
 ## :wrench: Installation
 
