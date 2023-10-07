@@ -86,6 +86,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/guessgender`            | Get the gender of a name.                                 | [Genderize](https://genderize.io/)                                                          |
 | `/shortenlink`            | Shorten the URL.                                          | [GoTiny](https://gotiny.cc/)                                                                |
 | `/locateiss`              | locate the International Space Station.                   | [open-notify](http://open-notify.org/Open-Notify-API/)                                      |
+| `/password-gen`           | Generate a random password.                               | [Random Password Generator](https://www.random.org/passwords/)                              |
 
 ## :wrench: Installation
 
@@ -107,9 +108,12 @@ Example `.env` file content:
 
 ```html
 DC_BOT_TOKEN=<your bot token>
-DC_BOT_CLIENT_ID=<your application client id>
-DC_BOT_CLIENT_SECRET=<your application client secret>
-DC_BOT_PERMISSIONS=274878131264
+  DC_BOT_CLIENT_ID=<your application client id>
+    DC_BOT_CLIENT_SECRET=<your application client secret>
+      DC_BOT_PERMISSIONS=274878131264</your
+    ></your
+  ></your
+>
 ```
 
 ## :rocket: How to run the bot
