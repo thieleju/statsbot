@@ -1,0 +1,28 @@
+name: Other
+description: File a issue
+title: "<title>"
+# labels: ['bug']
+body:
+  - type: checkboxes
+    id: search-existing-issue
+    attributes:
+      label: Is there an existing issue for this?
+      description: Please search to see if an issue already exists for the bug you encountered.
+      options:
+        - label: I have searched the existing issues
+          required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A concise description of whats wrong.
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/thieleju/statsbot/blob/main/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
