@@ -1,7 +1,7 @@
 # Contributing 
 
 > **Warning** <br>
-> For the duration of **Hacktoberfest 2022**, only **one** issue/pull request per person will be accepted. If you want to contribute more, please look for other repositories [here](https://github.com/topics/hacktoberfest-2022?o=desc&s=updated) and keep contributing ❤️
+> For the duration of **Hacktoberfest**, only **one** issue/pull request per person will be accepted. If you want to contribute more, please look for other repositories [here](https://github.com/topics/hacktoberfest?o=desc&s=updated) and keep contributing ❤️
 
 When contributing to this repository, please first **ask to be assigned to an issue**.<br>
 Feel free to create an issue by yourself and ask to be assigned to it!
