@@ -14,7 +14,7 @@ module.exports = {
       .then((response) => {
         var lat = response.data["iss_position"]["latitude"]
         var lon = response.data["iss_position"]["longitude"]
-        
+
         var url =
           "https://www.openstreetmap.org/search?query=" +
           lat +

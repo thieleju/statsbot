@@ -3,14 +3,14 @@
 [![CodeQL](https://github.com/thieleju/statsbot/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/thieleju/statsbot/actions/workflows/codeql-analysis.yml)
 
 > **Note** <br>
-> This project does participate in the **Hacktoberfest 2022** event!
+> This project does participate in the **Hacktoberfest** event!
 
 A Discord bot which provides various commands to get data from public APIs. This project is using the [discord.js](https://discord.js.org/) library and public APIs from [this list](https://github.com/public-apis/public-apis) or other ressources.
 
 ## :sparkles: How to contribute
 
 > **Warning** <br>
-> For the duration of **Hacktoberfest 2022**, only **one** issue/pull request per person will be accepted. If you want to contribute more, please look for other repositories [here](https://github.com/topics/hacktoberfest-2022?o=desc&s=updated) and keep contributing ❤️
+> For the duration of **Hacktoberfest**, only **one** issue/pull request per person will be accepted. If you want to contribute more, please look for other repositories [here](https://github.com/topics/hacktoberfest?o=desc&s=updated) and keep contributing ❤️
 
 - Navigate to an open issue and ask to be assigned to it (or create one yourself)
 - After you are assigned, [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) the repository and create a new branch
@@ -32,7 +32,7 @@ For more information check out the [Contribution Guidelines](CONTRIBUTING.md)
 | `/userinfo`               | Shows information about the user                          |                                                                                             |
 | `/excuse`                 | Sends a random excuse                                     | [Excuser](https://excuser.herokuapp.com/)                                                   |
 | `/show-chess-leaderboard` | Shows information about the current chess.com leaderboard | [chess.com](https://www.chess.com/news/view/published-data-api)                             |
-| `/trivia`                 | Shows a random question, react with ✅ or ❌.             | [opentdb.com](https://opentdb.com/api.php?amount=1&type=boolean)                            |
+| `/trivia`                 | Shows a random question, react with ✅ or ❌.               | [opentdb.com](https://opentdb.com/api.php?amount=1&type=boolean)                            |
 | `/numberfact`             | Shows a random number fact                                | [numbersapi.com](http://numbersapi.com/)                                                    |
 | `/catfact`                | Shows a random fact about cats.                           | [meowfacts](https://github.com/wh-iterabb-it/meowfacts)                                     |
 | `/dogfact`                | Shows a random fact about dogs.                           | [Dog API](http://dog-api.kinduff.com/api/facts)                                             |
