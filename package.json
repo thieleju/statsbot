@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo 'Error: No test specified'",
-    "format": "echo 'Formatting js files ...' && prettier --loglevel silent --write *.js commands/*.js",
+    "format": "echo 'Formatting js files ...' && prettier --log-level silent --write *.js commands/*.js",
     "dev": "npm run format && nodemon index.js -e js,json",
     "production": "node index.js"
   },
