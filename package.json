@@ -23,7 +23,7 @@
     "axios": "^1.6.7",
     "countdown": "^2.6.0",
     "discord.js": "^14.14.1",
-    "dotenv": "^16.4.3",
+    "dotenv": "^16.4.4",
     "html-to-text": "^9.0.5",
     "luxon": "^3.4.4"
   },
