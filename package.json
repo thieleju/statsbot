@@ -25,7 +25,7 @@
     "discord.js": "^14.15.3",
     "dotenv": "^16.4.5",
     "html-to-text": "^9.0.5",
-    "luxon": "^3.4.4"
+    "luxon": "^3.5.0"
   },
   "devDependencies": {
     "eslint": "^9.8.0",
